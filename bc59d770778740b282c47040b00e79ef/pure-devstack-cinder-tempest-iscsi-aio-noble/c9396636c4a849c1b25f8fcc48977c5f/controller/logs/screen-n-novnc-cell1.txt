@@ -1,0 +1,14 @@
+Jul 19 15:47:57.100951 np0000039885 systemd[1]: Started devstack@n-novnc-cell1.service - Devstack devstack@n-novnc-cell1.service.
+Jul 19 15:47:57.327500 np0000039885 nova-novncproxy[83473]: /opt/stack/nova/nova/monkey_patch.py:85: EventletDeprecationWarning:
+Jul 19 15:47:57.327500 np0000039885 nova-novncproxy[83473]: Eventlet is deprecated. It is currently being maintained in bugfix mode, and
+Jul 19 15:47:57.327500 np0000039885 nova-novncproxy[83473]: we strongly recommend against using it for new projects.
+Jul 19 15:47:57.327500 np0000039885 nova-novncproxy[83473]: If you are already using Eventlet, we recommend migrating to a different
+Jul 19 15:47:57.327500 np0000039885 nova-novncproxy[83473]: framework.  For more detail see
+Jul 19 15:47:57.327500 np0000039885 nova-novncproxy[83473]: https://eventlet.readthedocs.io/en/latest/asyncio/migration.html
+Jul 19 15:47:57.327500 np0000039885 nova-novncproxy[83473]:   import eventlet  # noqa
+Jul 19 15:47:57.448025 np0000039885 nova-novncproxy[83473]: Eventlet based concurrency mode is deprecated and will be removed in a future release, not earlier than 2027.2. Please migrate to native threading mode. See the concurrency guide for details: https://docs.openstack.org/nova/latest/admin/concurrency.html
+Jul 19 15:47:58.526373 np0000039885 nova-novncproxy[83473]: INFO nova.console.websocketproxy [-] WebSocket server settings:
+Jul 19 15:47:58.526601 np0000039885 nova-novncproxy[83473]: INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+Jul 19 15:47:58.526601 np0000039885 nova-novncproxy[83473]: INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+Jul 19 15:47:58.526675 np0000039885 nova-novncproxy[83473]: INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+Jul 19 15:47:58.526968 np0000039885 nova-novncproxy[83473]: INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
