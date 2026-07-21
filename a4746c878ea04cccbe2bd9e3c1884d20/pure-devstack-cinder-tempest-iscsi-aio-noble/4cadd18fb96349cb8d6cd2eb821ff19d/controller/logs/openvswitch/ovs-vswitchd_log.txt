@@ -1,0 +1,595 @@
+2026-07-21T16:39:09.083Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2026-07-21T16:39:09.086Z|00002|ovs_numa|INFO|Discovered 8 CPU cores on NUMA node 0
+2026-07-21T16:39:09.086Z|00003|ovs_numa|INFO|Discovered 1 NUMA nodes and 8 CPU cores
+2026-07-21T16:39:09.086Z|00004|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2026-07-21T16:39:09.086Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2026-07-21T16:39:09.089Z|00006|bridge|INFO|ovs-vswitchd (Open vSwitch) 3.3.4
+2026-07-21T16:39:42.598Z|00007|memory|INFO|15872 kB peak resident set size after 33.5 seconds
+2026-07-21T16:39:42.598Z|00008|memory|INFO|idl-cells-Open_vSwitch:17
+2026-07-21T16:39:42.599Z|00009|dpif_netlink|INFO|Datapath dispatch mode: per-cpu
+2026-07-21T16:39:42.599Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2026-07-21T16:39:42.599Z|00011|ofproto_dpif|INFO|system@ovs-system: VLAN header stack length probed as 2
+2026-07-21T16:39:42.599Z|00012|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 3
+2026-07-21T16:39:42.599Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2026-07-21T16:39:42.599Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2026-07-21T16:39:42.599Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports clone action
+2026-07-21T16:39:42.599Z|00016|ofproto_dpif|INFO|system@ovs-system: Max sample nesting level probed as 10
+2026-07-21T16:39:42.599Z|00017|ofproto_dpif|INFO|system@ovs-system: Datapath supports eventmask in conntrack action
+2026-07-21T16:39:42.599Z|00018|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_clear action
+2026-07-21T16:39:42.599Z|00019|ofproto_dpif|INFO|system@ovs-system: Max dp_hash algorithm probed to be 1
+2026-07-21T16:39:42.599Z|00020|ofproto_dpif|INFO|system@ovs-system: Datapath supports check_pkt_len action
+2026-07-21T16:39:42.599Z|00021|ofproto_dpif|INFO|system@ovs-system: Datapath supports timeout policy in conntrack action
+2026-07-21T16:39:42.599Z|00022|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zero_snat
+2026-07-21T16:39:42.599Z|00023|ofproto_dpif|INFO|system@ovs-system: Datapath supports add_mpls action
+2026-07-21T16:39:42.599Z|00024|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2026-07-21T16:39:42.600Z|00025|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2026-07-21T16:39:42.600Z|00026|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2026-07-21T16:39:42.600Z|00027|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2026-07-21T16:39:42.600Z|00028|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2026-07-21T16:39:42.600Z|00029|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_orig_tuple
+2026-07-21T16:39:42.600Z|00030|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_orig_tuple6
+2026-07-21T16:39:42.600Z|00031|ofproto_dpif|INFO|system@ovs-system: Datapath does not support IPv6 ND Extensions
+2026-07-21T16:39:42.600Z|00032|ofproto_dpif_upcall|INFO|Overriding n-handler-threads to 8, setting n-revalidator-threads to 3
+2026-07-21T16:39:42.600Z|00033|ofproto_dpif_upcall|INFO|Starting 11 threads
+2026-07-21T16:39:42.641Z|00034|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2026-07-21T16:39:42.641Z|00035|bridge|INFO|bridge br-int: using datapath ID 0000da40e33e477f
+2026-07-21T16:39:42.642Z|00036|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2026-07-21T16:39:52.643Z|00037|memory|INFO|peak resident set size grew 631% in last 10.0 seconds, from 15872 kB to 115968 kB
+2026-07-21T16:39:52.643Z|00038|memory|INFO|handlers:8 idl-cells-Open_vSwitch:101 ports:1 revalidators:3 rules:4
+2026-07-21T16:43:29.850Z|00039|bridge|INFO|bridge br-int: deleted interface br-int on port 65534
+2026-07-21T16:43:30.600Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2026-07-21T16:43:30.604Z|00002|ovs_numa|INFO|Discovered 8 CPU cores on NUMA node 0
+2026-07-21T16:43:30.604Z|00003|ovs_numa|INFO|Discovered 1 NUMA nodes and 8 CPU cores
+2026-07-21T16:43:30.604Z|00004|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2026-07-21T16:43:30.604Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2026-07-21T16:43:30.617Z|00006|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2026-07-21T16:43:30.617Z|00007|ofproto_dpif|INFO|system@ovs-system: VLAN header stack length probed as 2
+2026-07-21T16:43:30.618Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 3
+2026-07-21T16:43:30.618Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2026-07-21T16:43:30.618Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2026-07-21T16:43:30.618Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports clone action
+2026-07-21T16:43:30.618Z|00012|ofproto_dpif|INFO|system@ovs-system: Max sample nesting level probed as 10
+2026-07-21T16:43:30.618Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports eventmask in conntrack action
+2026-07-21T16:43:30.618Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_clear action
+2026-07-21T16:43:30.618Z|00015|ofproto_dpif|INFO|system@ovs-system: Max dp_hash algorithm probed to be 1
+2026-07-21T16:43:30.618Z|00016|ofproto_dpif|INFO|system@ovs-system: Datapath supports check_pkt_len action
+2026-07-21T16:43:30.618Z|00017|ofproto_dpif|INFO|system@ovs-system: Datapath supports timeout policy in conntrack action
+2026-07-21T16:43:30.618Z|00018|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zero_snat
+2026-07-21T16:43:30.618Z|00019|ofproto_dpif|INFO|system@ovs-system: Datapath supports add_mpls action
+2026-07-21T16:43:30.618Z|00020|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2026-07-21T16:43:30.618Z|00021|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2026-07-21T16:43:30.618Z|00022|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2026-07-21T16:43:30.618Z|00023|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2026-07-21T16:43:30.618Z|00024|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2026-07-21T16:43:30.618Z|00025|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_orig_tuple
+2026-07-21T16:43:30.618Z|00026|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_orig_tuple6
+2026-07-21T16:43:30.618Z|00027|ofproto_dpif|INFO|system@ovs-system: Datapath does not support IPv6 ND Extensions
+2026-07-21T16:43:30.618Z|00028|ofproto_dpif_upcall|INFO|Overriding n-handler-threads to 8, setting n-revalidator-threads to 3
+2026-07-21T16:43:30.618Z|00029|ofproto_dpif_upcall|INFO|Starting 11 threads
+2026-07-21T16:43:30.655Z|00030|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2026-07-21T16:43:30.655Z|00031|bridge|INFO|bridge br-int: using datapath ID 0000da40e33e477f
+2026-07-21T16:43:30.655Z|00032|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2026-07-21T16:43:30.656Z|00033|bridge|INFO|ovs-vswitchd (Open vSwitch) 3.3.4
+2026-07-21T16:43:30.828Z|00034|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2026-07-21T16:43:30.828Z|00035|bridge|INFO|bridge br-ex: using datapath ID 00007e199cd81641
+2026-07-21T16:43:30.828Z|00036|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2026-07-21T16:43:40.657Z|00037|memory|INFO|116464 kB peak resident set size after 10.1 seconds
+2026-07-21T16:43:40.657Z|00038|memory|INFO|handlers:8 idl-cells-Open_vSwitch:199 ofconns:4 ports:2 revalidators:3 rules:26
+2026-07-21T16:43:43.071Z|00039|connmgr|INFO|br-int<->unix#1: 18 flow_mods 10 s ago (17 adds, 1 deletes)
+2026-07-21T16:43:52.273Z|00040|bridge|INFO|bridge br-int: added interface patch-br-int-to-provnet-cca14396-6604-4601-9339-1d415fcb2d11 on port 1
+2026-07-21T16:43:52.273Z|00041|bridge|INFO|bridge br-ex: added interface patch-provnet-cca14396-6604-4601-9339-1d415fcb2d11-to-br-int on port 1
+2026-07-21T16:44:43.070Z|00042|connmgr|INFO|br-int<->unix#1: 554 flow_mods in the 3 s starting 50 s ago (539 adds, 8 deletes, 7 modifications)
+2026-07-21T16:45:43.070Z|00043|connmgr|INFO|br-int<->unix#1: 2290 flow_mods in the last 12 s (2233 adds, 43 deletes, 14 modifications)
+2026-07-21T16:45:55.434Z|00044|bridge|WARN|could not open network device tapd74f8cc6-48 (No such device)
+2026-07-21T16:45:55.441Z|00045|bridge|WARN|could not open network device tapca1a951b-bd (No such device)
+2026-07-21T16:45:55.441Z|00046|bridge|INFO|bridge br-int: added interface tapd74f8cc6-48 on port 2
+2026-07-21T16:45:55.446Z|00047|bridge|WARN|could not open network device tapca1a951b-bd (No such device)
+2026-07-21T16:45:55.459Z|00048|bridge|INFO|bridge br-int: added interface tapca1a951b-bd on port 3
+2026-07-21T16:45:56.761Z|00049|bridge|WARN|could not open network device tapcee87a50-92 (No such device)
+2026-07-21T16:45:56.772Z|00050|bridge|INFO|bridge br-int: added interface tapcee87a50-92 on port 4
+2026-07-21T16:45:57.934Z|00051|bridge|INFO|bridge br-int: added interface tap1ff28250-60 on port 5
+2026-07-21T16:45:58.429Z|00052|bridge|INFO|bridge br-int: added interface tap1ed625b6-60 on port 6
+2026-07-21T16:45:58.765Z|00053|bridge|INFO|bridge br-int: added interface tapbaa057ba-b0 on port 7
+2026-07-21T16:46:00.628Z|00054|bridge|INFO|bridge br-int: deleted interface tapca1a951b-bd on port 3
+2026-07-21T16:46:00.634Z|00055|bridge|WARN|could not open network device tapca1a951b-bd (No such device)
+2026-07-21T16:46:00.659Z|00056|bridge|INFO|bridge br-int: deleted interface tap1ed625b6-60 on port 6
+2026-07-21T16:46:18.797Z|00057|bridge|WARN|could not open network device tapb19df37f-95 (No such device)
+2026-07-21T16:46:18.801Z|00058|bridge|INFO|bridge br-int: added interface tapb19df37f-95 on port 8
+2026-07-21T16:46:18.831Z|00059|bridge|WARN|could not open network device tap1e1563dd-40 (No such device)
+2026-07-21T16:46:18.837Z|00060|bridge|INFO|bridge br-int: added interface tap1e1563dd-40 on port 9
+2026-07-21T16:46:18.881Z|00061|bridge|WARN|could not open network device tapcac0b9f7-d9 (No such device)
+2026-07-21T16:46:18.887Z|00062|bridge|INFO|bridge br-int: added interface tapcac0b9f7-d9 on port 10
+2026-07-21T16:46:18.912Z|00063|bridge|WARN|could not open network device tapdd156b9a-98 (No such device)
+2026-07-21T16:46:18.917Z|00064|bridge|INFO|bridge br-int: added interface tapdd156b9a-98 on port 11
+2026-07-21T16:46:18.940Z|00065|bridge|WARN|could not open network device tap18954e9c-a2 (No such device)
+2026-07-21T16:46:18.947Z|00066|bridge|INFO|bridge br-int: added interface tap18954e9c-a2 on port 12
+2026-07-21T16:46:18.976Z|00067|bridge|WARN|could not open network device tap77d5b3a3-43 (No such device)
+2026-07-21T16:46:18.983Z|00068|bridge|INFO|bridge br-int: added interface tap77d5b3a3-43 on port 13
+2026-07-21T16:46:19.018Z|00069|bridge|WARN|could not open network device tapeb85d068-d9 (No such device)
+2026-07-21T16:46:19.023Z|00070|bridge|INFO|bridge br-int: added interface tapeb85d068-d9 on port 14
+2026-07-21T16:46:19.104Z|00071|bridge|INFO|bridge br-int: added interface tap145b0d09-a0 on port 15
+2026-07-21T16:46:19.405Z|00072|bridge|INFO|bridge br-int: added interface tap71116824-30 on port 16
+2026-07-21T16:46:20.154Z|00073|bridge|INFO|bridge br-int: added interface tap5cfdf926-70 on port 17
+2026-07-21T16:46:38.299Z|00074|bridge|WARN|could not open network device tap11884ec3-9e (No such device)
+2026-07-21T16:46:38.308Z|00075|bridge|INFO|bridge br-int: added interface tap11884ec3-9e on port 18
+2026-07-21T16:46:38.580Z|00076|bridge|INFO|bridge br-int: added interface tap43cbf984-90 on port 19
+2026-07-21T16:46:42.244Z|00077|bridge|INFO|bridge br-int: deleted interface tapd74f8cc6-48 on port 2
+2026-07-21T16:46:42.246Z|00078|bridge|WARN|could not open network device tapd74f8cc6-48 (No such device)
+2026-07-21T16:46:42.262Z|00079|bridge|INFO|bridge br-int: deleted interface tap1ff28250-60 on port 5
+2026-07-21T16:46:42.265Z|00080|bridge|WARN|could not open network device tapd74f8cc6-48 (No such device)
+2026-07-21T16:46:42.938Z|00081|bridge|INFO|bridge br-int: deleted interface tapcee87a50-92 on port 4
+2026-07-21T16:46:42.941Z|00082|bridge|WARN|could not open network device tapcee87a50-92 (No such device)
+2026-07-21T16:46:42.965Z|00083|bridge|INFO|bridge br-int: deleted interface tapbaa057ba-b0 on port 7
+2026-07-21T16:46:43.070Z|00084|connmgr|INFO|br-int<->unix#1: 4465 flow_mods in the last 59 s (2929 adds, 1520 deletes, 16 modifications)
+2026-07-21T16:46:43.228Z|00085|bridge|INFO|bridge br-int: deleted interface tap11884ec3-9e on port 18
+2026-07-21T16:46:43.232Z|00086|bridge|WARN|could not open network device tap11884ec3-9e (No such device)
+2026-07-21T16:46:43.258Z|00087|bridge|INFO|bridge br-int: deleted interface tap43cbf984-90 on port 19
+2026-07-21T16:46:58.220Z|00088|bridge|WARN|could not open network device tap5eb8dd8e-19 (No such device)
+2026-07-21T16:46:58.225Z|00089|bridge|INFO|bridge br-int: added interface tap5eb8dd8e-19 on port 20
+2026-07-21T16:46:58.484Z|00090|bridge|INFO|bridge br-int: added interface tapd5bbd088-80 on port 21
+2026-07-21T16:47:05.463Z|00091|bridge|INFO|bridge br-int: deleted interface tapb19df37f-95 on port 8
+2026-07-21T16:47:05.467Z|00092|bridge|WARN|could not open network device tapb19df37f-95 (No such device)
+2026-07-21T16:47:05.487Z|00093|bridge|INFO|bridge br-int: deleted interface tap145b0d09-a0 on port 15
+2026-07-21T16:47:05.490Z|00094|bridge|WARN|could not open network device tapb19df37f-95 (No such device)
+2026-07-21T16:47:05.523Z|00095|bridge|INFO|bridge br-int: deleted interface tap1e1563dd-40 on port 9
+2026-07-21T16:47:05.526Z|00096|bridge|WARN|could not open network device tap1e1563dd-40 (No such device)
+2026-07-21T16:47:05.531Z|00097|bridge|WARN|could not open network device tap1e1563dd-40 (No such device)
+2026-07-21T16:47:05.574Z|00098|bridge|INFO|bridge br-int: deleted interface tapcac0b9f7-d9 on port 10
+2026-07-21T16:47:05.580Z|00099|bridge|WARN|could not open network device tapcac0b9f7-d9 (No such device)
+2026-07-21T16:47:05.619Z|00100|bridge|INFO|bridge br-int: deleted interface tapdd156b9a-98 on port 11
+2026-07-21T16:47:05.623Z|00101|bridge|WARN|could not open network device tapdd156b9a-98 (No such device)
+2026-07-21T16:47:05.676Z|00102|bridge|INFO|bridge br-int: deleted interface tap18954e9c-a2 on port 12
+2026-07-21T16:47:05.679Z|00103|bridge|WARN|could not open network device tap18954e9c-a2 (No such device)
+2026-07-21T16:47:05.724Z|00104|bridge|INFO|bridge br-int: deleted interface tap77d5b3a3-43 on port 13
+2026-07-21T16:47:05.727Z|00105|bridge|WARN|could not open network device tap77d5b3a3-43 (No such device)
+2026-07-21T16:47:05.730Z|00106|bridge|WARN|could not open network device tap77d5b3a3-43 (No such device)
+2026-07-21T16:47:05.759Z|00107|bridge|INFO|bridge br-int: deleted interface tap71116824-30 on port 16
+2026-07-21T16:47:05.759Z|00108|bridge|INFO|bridge br-int: deleted interface tapeb85d068-d9 on port 14
+2026-07-21T16:47:05.762Z|00109|bridge|WARN|could not open network device tapeb85d068-d9 (No such device)
+2026-07-21T16:47:05.777Z|00110|bridge|WARN|could not open network device tapeb85d068-d9 (No such device)
+2026-07-21T16:47:05.872Z|00111|bridge|INFO|bridge br-int: deleted interface tap5cfdf926-70 on port 17
+2026-07-21T16:47:06.138Z|00112|bridge|WARN|could not open network device tap63ac362d-8f (No such device)
+2026-07-21T16:47:06.143Z|00113|bridge|INFO|bridge br-int: added interface tap63ac362d-8f on port 22
+2026-07-21T16:47:06.497Z|00114|bridge|INFO|bridge br-int: added interface tapf17d5470-f0 on port 23
+2026-07-21T16:47:06.725Z|00115|bridge|INFO|bridge br-int: deleted interface tap5eb8dd8e-19 on port 20
+2026-07-21T16:47:06.728Z|00116|bridge|WARN|could not open network device tap5eb8dd8e-19 (No such device)
+2026-07-21T16:47:06.752Z|00117|bridge|INFO|bridge br-int: deleted interface tapd5bbd088-80 on port 21
+2026-07-21T16:47:24.968Z|00118|bridge|WARN|could not open network device tap49b98276-4d (No such device)
+2026-07-21T16:47:24.971Z|00119|bridge|INFO|bridge br-int: added interface tap49b98276-4d on port 24
+2026-07-21T16:47:25.191Z|00120|bridge|INFO|bridge br-int: added interface tapb782090a-80 on port 25
+2026-07-21T16:47:28.820Z|00121|bridge|WARN|could not open network device tap0d13a26f-ef (No such device)
+2026-07-21T16:47:28.824Z|00122|bridge|INFO|bridge br-int: added interface tap0d13a26f-ef on port 26
+2026-07-21T16:47:29.074Z|00123|bridge|INFO|bridge br-int: added interface tapb9a15ccd-30 on port 27
+2026-07-21T16:47:43.070Z|00124|connmgr|INFO|br-int<->unix#1: 6880 flow_mods in the 47 s starting 59 s ago (2535 adds, 4330 deletes, 15 modifications)
+2026-07-21T16:47:46.068Z|00125|bridge|WARN|could not open network device tap2021de5d-66 (No such device)
+2026-07-21T16:47:46.072Z|00126|bridge|INFO|bridge br-int: added interface tap2021de5d-66 on port 28
+2026-07-21T16:47:46.421Z|00127|bridge|INFO|bridge br-int: added interface tapf491bdf3-f0 on port 29
+2026-07-21T16:47:55.026Z|00128|bridge|INFO|bridge br-int: deleted interface tap2021de5d-66 on port 28
+2026-07-21T16:47:55.029Z|00129|bridge|WARN|could not open network device tap2021de5d-66 (No such device)
+2026-07-21T16:47:55.051Z|00130|bridge|INFO|bridge br-int: deleted interface tapf491bdf3-f0 on port 29
+2026-07-21T16:47:57.017Z|00131|bridge|INFO|bridge br-int: deleted interface tap63ac362d-8f on port 22
+2026-07-21T16:47:57.020Z|00132|bridge|WARN|could not open network device tap63ac362d-8f (No such device)
+2026-07-21T16:47:57.038Z|00133|bridge|INFO|bridge br-int: deleted interface tapf17d5470-f0 on port 23
+2026-07-21T16:47:57.043Z|00134|bridge|WARN|could not open network device tap63ac362d-8f (No such device)
+2026-07-21T16:47:59.300Z|00135|bridge|INFO|bridge br-int: deleted interface tap49b98276-4d on port 24
+2026-07-21T16:47:59.303Z|00136|bridge|WARN|could not open network device tap49b98276-4d (No such device)
+2026-07-21T16:47:59.322Z|00137|bridge|INFO|bridge br-int: deleted interface tapb782090a-80 on port 25
+2026-07-21T16:47:59.325Z|00138|bridge|WARN|could not open network device tap49b98276-4d (No such device)
+2026-07-21T16:48:11.371Z|00139|bridge|WARN|could not open network device tap49b98276-4d (No such device)
+2026-07-21T16:48:11.380Z|00140|bridge|INFO|bridge br-int: added interface tap49b98276-4d on port 30
+2026-07-21T16:48:11.702Z|00141|bridge|INFO|bridge br-int: added interface tapb782090a-80 on port 31
+2026-07-21T16:48:16.962Z|00142|bridge|INFO|bridge br-int: deleted interface tap0d13a26f-ef on port 26
+2026-07-21T16:48:16.965Z|00143|bridge|WARN|could not open network device tap0d13a26f-ef (No such device)
+2026-07-21T16:48:16.985Z|00144|bridge|INFO|bridge br-int: deleted interface tapb9a15ccd-30 on port 27
+2026-07-21T16:48:23.103Z|00145|bridge|WARN|could not open network device tap0d13a26f-ef (No such device)
+2026-07-21T16:48:23.109Z|00146|bridge|INFO|bridge br-int: added interface tap0d13a26f-ef on port 32
+2026-07-21T16:48:23.375Z|00147|bridge|INFO|bridge br-int: added interface tapb9a15ccd-30 on port 33
+2026-07-21T16:48:25.194Z|00148|bridge|INFO|bridge br-int: deleted interface tap0d13a26f-ef on port 32
+2026-07-21T16:48:25.197Z|00149|bridge|WARN|could not open network device tap0d13a26f-ef (No such device)
+2026-07-21T16:48:25.228Z|00150|bridge|INFO|bridge br-int: deleted interface tapb9a15ccd-30 on port 33
+2026-07-21T16:48:30.699Z|00151|bridge|WARN|could not open network device tap0d13a26f-ef (No such device)
+2026-07-21T16:48:30.705Z|00152|bridge|INFO|bridge br-int: added interface tap0d13a26f-ef on port 34
+2026-07-21T16:48:30.992Z|00153|bridge|INFO|bridge br-int: added interface tapb9a15ccd-30 on port 35
+2026-07-21T16:48:33.174Z|00154|bridge|INFO|bridge br-int: deleted interface tap0d13a26f-ef on port 34
+2026-07-21T16:48:33.176Z|00155|bridge|WARN|could not open network device tap0d13a26f-ef (No such device)
+2026-07-21T16:48:33.191Z|00156|bridge|INFO|bridge br-int: deleted interface tapb9a15ccd-30 on port 35
+2026-07-21T16:48:33.194Z|00157|bridge|WARN|could not open network device tap0d13a26f-ef (No such device)
+2026-07-21T16:48:38.750Z|00158|bridge|WARN|could not open network device tapb85233be-ee (No such device)
+2026-07-21T16:48:38.754Z|00159|bridge|INFO|bridge br-int: added interface tapb85233be-ee on port 36
+2026-07-21T16:48:38.786Z|00160|bridge|WARN|could not open network device tap056d24c5-69 (No such device)
+2026-07-21T16:48:38.794Z|00161|bridge|INFO|bridge br-int: added interface tap056d24c5-69 on port 37
+2026-07-21T16:48:38.837Z|00162|bridge|WARN|could not open network device tap623351a4-58 (No such device)
+2026-07-21T16:48:38.840Z|00163|bridge|INFO|bridge br-int: added interface tap623351a4-58 on port 38
+2026-07-21T16:48:38.864Z|00164|bridge|WARN|could not open network device tap104086c6-3e (No such device)
+2026-07-21T16:48:38.868Z|00165|bridge|WARN|could not open network device tap104086c6-3e (No such device)
+2026-07-21T16:48:38.871Z|00166|bridge|INFO|bridge br-int: added interface tap104086c6-3e on port 39
+2026-07-21T16:48:38.904Z|00167|bridge|WARN|could not open network device tap31ad6023-c7 (No such device)
+2026-07-21T16:48:38.913Z|00168|bridge|INFO|bridge br-int: added interface tap31ad6023-c7 on port 40
+2026-07-21T16:48:38.948Z|00169|bridge|WARN|could not open network device tap60d3cdd6-49 (No such device)
+2026-07-21T16:48:38.954Z|00170|bridge|INFO|bridge br-int: added interface tap60d3cdd6-49 on port 41
+2026-07-21T16:48:39.008Z|00171|bridge|WARN|could not open network device tap57175cc8-1d (No such device)
+2026-07-21T16:48:39.014Z|00172|bridge|INFO|bridge br-int: added interface tap57175cc8-1d on port 42
+2026-07-21T16:48:39.149Z|00173|bridge|INFO|bridge br-int: added interface tap5dff3aea-f0 on port 43
+2026-07-21T16:48:39.508Z|00174|bridge|INFO|bridge br-int: added interface tape5135d3d-20 on port 44
+2026-07-21T16:48:40.193Z|00175|bridge|INFO|bridge br-int: added interface tap67e78f58-50 on port 45
+2026-07-21T16:48:43.070Z|00176|connmgr|INFO|br-int<->unix#1: 4206 flow_mods in the last 56 s (2292 adds, 1894 deletes, 20 modifications)
+2026-07-21T16:48:44.023Z|00177|bridge|INFO|bridge br-int: deleted interface tap49b98276-4d on port 30
+2026-07-21T16:48:44.026Z|00178|bridge|WARN|could not open network device tap49b98276-4d (No such device)
+2026-07-21T16:48:44.060Z|00179|bridge|INFO|bridge br-int: deleted interface tapb782090a-80 on port 31
+2026-07-21T16:48:46.965Z|00180|bridge|WARN|could not open network device tapfe13e794-98 (No such device)
+2026-07-21T16:48:46.968Z|00181|bridge|INFO|bridge br-int: added interface tapfe13e794-98 on port 46
+2026-07-21T16:48:47.210Z|00182|bridge|INFO|bridge br-int: added interface tapfc2cf5cb-c0 on port 47
+2026-07-21T16:48:58.613Z|00183|bridge|WARN|could not open network device tapbec6712c-15 (No such device)
+2026-07-21T16:48:58.622Z|00184|bridge|INFO|bridge br-int: added interface tapbec6712c-15 on port 48
+2026-07-21T16:49:01.875Z|00185|bridge|WARN|could not open network device tap197710c8-48 (No such device)
+2026-07-21T16:49:01.879Z|00186|bridge|INFO|bridge br-int: added interface tap197710c8-48 on port 49
+2026-07-21T16:49:02.274Z|00187|bridge|INFO|bridge br-int: added interface tapa01fdfe4-d0 on port 50
+2026-07-21T16:49:10.236Z|00188|bridge|WARN|could not open network device tap148668a1-ea (No such device)
+2026-07-21T16:49:10.242Z|00189|bridge|INFO|bridge br-int: added interface tap148668a1-ea on port 51
+2026-07-21T16:49:21.922Z|00190|bridge|INFO|bridge br-int: deleted interface tapb85233be-ee on port 36
+2026-07-21T16:49:21.926Z|00191|bridge|WARN|could not open network device tapb85233be-ee (No such device)
+2026-07-21T16:49:21.987Z|00192|bridge|INFO|bridge br-int: deleted interface tap5dff3aea-f0 on port 43
+2026-07-21T16:49:21.987Z|00193|bridge|INFO|bridge br-int: deleted interface tap056d24c5-69 on port 37
+2026-07-21T16:49:21.990Z|00194|bridge|WARN|could not open network device tap056d24c5-69 (No such device)
+2026-07-21T16:49:21.997Z|00195|bridge|WARN|could not open network device tap056d24c5-69 (No such device)
+2026-07-21T16:49:22.031Z|00196|bridge|INFO|bridge br-int: deleted interface tap623351a4-58 on port 38
+2026-07-21T16:49:22.035Z|00197|bridge|WARN|could not open network device tap623351a4-58 (No such device)
+2026-07-21T16:49:22.076Z|00198|bridge|INFO|bridge br-int: deleted interface tap104086c6-3e on port 39
+2026-07-21T16:49:22.080Z|00199|bridge|WARN|could not open network device tap104086c6-3e (No such device)
+2026-07-21T16:49:22.132Z|00200|bridge|INFO|bridge br-int: deleted interface tap31ad6023-c7 on port 40
+2026-07-21T16:49:22.137Z|00201|bridge|WARN|could not open network device tap31ad6023-c7 (No such device)
+2026-07-21T16:49:22.204Z|00202|bridge|INFO|bridge br-int: deleted interface tap60d3cdd6-49 on port 41
+2026-07-21T16:49:22.207Z|00203|bridge|WARN|could not open network device tap60d3cdd6-49 (No such device)
+2026-07-21T16:49:22.242Z|00204|bridge|INFO|bridge br-int: deleted interface tap57175cc8-1d on port 42
+2026-07-21T16:49:22.246Z|00205|bridge|WARN|could not open network device tap57175cc8-1d (No such device)
+2026-07-21T16:49:22.302Z|00206|bridge|INFO|bridge br-int: deleted interface tape5135d3d-20 on port 44
+2026-07-21T16:49:22.374Z|00207|bridge|WARN|could not open network device tap56558df6-55 (No such device)
+2026-07-21T16:49:22.381Z|00208|bridge|INFO|bridge br-int: added interface tap56558df6-55 on port 52
+2026-07-21T16:49:22.384Z|00209|bridge|INFO|bridge br-int: deleted interface tap67e78f58-50 on port 45
+2026-07-21T16:49:32.252Z|00210|bridge|INFO|bridge br-int: deleted interface tap56558df6-55 on port 52
+2026-07-21T16:49:32.255Z|00211|bridge|WARN|could not open network device tap56558df6-55 (No such device)
+2026-07-21T16:49:39.636Z|00212|bridge|INFO|bridge br-int: deleted interface tap148668a1-ea on port 51
+2026-07-21T16:49:39.639Z|00213|bridge|WARN|could not open network device tap148668a1-ea (No such device)
+2026-07-21T16:49:40.959Z|00214|bridge|INFO|bridge br-int: deleted interface tapbec6712c-15 on port 48
+2026-07-21T16:49:40.961Z|00215|bridge|WARN|could not open network device tapbec6712c-15 (No such device)
+2026-07-21T16:49:43.070Z|00216|connmgr|INFO|br-int<->unix#1: 3961 flow_mods in the 58 s starting 59 s ago (1529 adds, 2424 deletes, 8 modifications)
+2026-07-21T16:49:43.769Z|00217|bridge|INFO|bridge br-int: deleted interface tapfe13e794-98 on port 46
+2026-07-21T16:49:43.772Z|00218|bridge|WARN|could not open network device tapfe13e794-98 (No such device)
+2026-07-21T16:49:43.803Z|00219|bridge|INFO|bridge br-int: deleted interface tapfc2cf5cb-c0 on port 47
+2026-07-21T16:49:46.113Z|00220|bridge|WARN|could not open network device tapbdb7cbc9-11 (No such device)
+2026-07-21T16:49:46.117Z|00221|bridge|INFO|bridge br-int: added interface tapbdb7cbc9-11 on port 53
+2026-07-21T16:49:46.418Z|00222|bridge|INFO|bridge br-int: added interface tap4e9a2cf3-80 on port 54
+2026-07-21T16:49:54.966Z|00223|bridge|WARN|could not open network device tap02c5354e-15 (No such device)
+2026-07-21T16:49:54.976Z|00224|bridge|INFO|bridge br-int: added interface tap02c5354e-15 on port 55
+2026-07-21T16:49:55.289Z|00225|bridge|INFO|bridge br-int: added interface tap6019bdd8-00 on port 56
+2026-07-21T16:49:56.327Z|00226|bridge|WARN|could not open network device tapb545a72d-89 (No such device)
+2026-07-21T16:49:56.336Z|00227|bridge|INFO|bridge br-int: added interface tapb545a72d-89 on port 57
+2026-07-21T16:50:13.233Z|00228|bridge|WARN|could not open network device tapa1239bda-79 (No such device)
+2026-07-21T16:50:13.240Z|00229|bridge|INFO|bridge br-int: added interface tapa1239bda-79 on port 58
+2026-07-21T16:50:18.726Z|00230|bridge|WARN|could not open network device tap5166d596-63 (No such device)
+2026-07-21T16:50:18.732Z|00231|bridge|INFO|bridge br-int: added interface tap5166d596-63 on port 59
+2026-07-21T16:50:34.786Z|00232|bridge|INFO|bridge br-int: deleted interface tap197710c8-48 on port 49
+2026-07-21T16:50:34.790Z|00233|bridge|WARN|could not open network device tap197710c8-48 (No such device)
+2026-07-21T16:50:34.818Z|00234|bridge|INFO|bridge br-int: deleted interface tapa01fdfe4-d0 on port 50
+2026-07-21T16:50:43.070Z|00235|connmgr|INFO|br-int<->unix#1: 2018 flow_mods in the 58 s starting 59 s ago (932 adds, 1082 deletes, 4 modifications)
+2026-07-21T16:50:47.692Z|00236|bridge|WARN|could not open network device tapf84d7cf0-17 (No such device)
+2026-07-21T16:50:47.698Z|00237|bridge|INFO|bridge br-int: added interface tapf84d7cf0-17 on port 60
+2026-07-21T16:50:47.946Z|00238|bridge|INFO|bridge br-int: added interface tape35b0313-d0 on port 61
+2026-07-21T16:50:52.219Z|00239|bridge|WARN|could not open network device tap7440bde4-4a (No such device)
+2026-07-21T16:50:52.225Z|00240|bridge|INFO|bridge br-int: added interface tap7440bde4-4a on port 62
+2026-07-21T16:50:54.897Z|00241|bridge|INFO|bridge br-int: deleted interface tap7440bde4-4a on port 62
+2026-07-21T16:50:54.900Z|00242|bridge|WARN|could not open network device tap7440bde4-4a (No such device)
+2026-07-21T16:51:02.400Z|00243|bridge|INFO|bridge br-int: deleted interface tapf84d7cf0-17 on port 60
+2026-07-21T16:51:02.403Z|00244|bridge|WARN|could not open network device tapf84d7cf0-17 (No such device)
+2026-07-21T16:51:02.430Z|00245|bridge|INFO|bridge br-int: deleted interface tape35b0313-d0 on port 61
+2026-07-21T16:51:08.036Z|00246|bridge|INFO|bridge br-int: deleted interface tap5166d596-63 on port 59
+2026-07-21T16:51:08.040Z|00247|bridge|WARN|could not open network device tap5166d596-63 (No such device)
+2026-07-21T16:51:12.753Z|00248|bridge|WARN|could not open network device tap5166d596-63 (No such device)
+2026-07-21T16:51:12.761Z|00249|bridge|INFO|bridge br-int: added interface tap5166d596-63 on port 63
+2026-07-21T16:51:14.173Z|00250|bridge|WARN|could not open network device tapeef18315-36 (No such device)
+2026-07-21T16:51:14.181Z|00251|bridge|INFO|bridge br-int: added interface tapeef18315-36 on port 64
+2026-07-21T16:51:14.455Z|00252|bridge|INFO|bridge br-int: added interface tap72f052b8-50 on port 65
+2026-07-21T16:51:29.645Z|00253|bridge|INFO|bridge br-int: deleted interface tapa1239bda-79 on port 58
+2026-07-21T16:51:29.648Z|00254|bridge|WARN|could not open network device tapa1239bda-79 (No such device)
+2026-07-21T16:51:34.493Z|00255|bridge|INFO|bridge br-int: deleted interface tapb545a72d-89 on port 57
+2026-07-21T16:51:34.496Z|00256|bridge|WARN|could not open network device tapb545a72d-89 (No such device)
+2026-07-21T16:51:36.909Z|00257|bridge|INFO|bridge br-int: deleted interface tap02c5354e-15 on port 55
+2026-07-21T16:51:36.912Z|00258|bridge|WARN|could not open network device tap02c5354e-15 (No such device)
+2026-07-21T16:51:36.974Z|00259|bridge|INFO|bridge br-int: deleted interface tap6019bdd8-00 on port 56
+2026-07-21T16:51:43.070Z|00260|connmgr|INFO|br-int<->unix#1: 2888 flow_mods in the 55 s starting 59 s ago (1556 adds, 1324 deletes, 8 modifications)
+2026-07-21T16:51:51.558Z|00261|bridge|INFO|bridge br-int: deleted interface tapeef18315-36 on port 64
+2026-07-21T16:51:51.561Z|00262|bridge|WARN|could not open network device tapeef18315-36 (No such device)
+2026-07-21T16:51:51.586Z|00263|bridge|INFO|bridge br-int: deleted interface tap72f052b8-50 on port 65
+2026-07-21T16:51:53.357Z|00264|bridge|INFO|bridge br-int: deleted interface tap5166d596-63 on port 63
+2026-07-21T16:51:53.359Z|00265|bridge|WARN|could not open network device tap5166d596-63 (No such device)
+2026-07-21T16:51:55.468Z|00266|bridge|WARN|could not open network device tapeef18315-36 (No such device)
+2026-07-21T16:51:55.471Z|00267|bridge|INFO|bridge br-int: added interface tapeef18315-36 on port 66
+2026-07-21T16:51:55.741Z|00268|bridge|INFO|bridge br-int: added interface tap72f052b8-50 on port 67
+2026-07-21T16:52:00.907Z|00269|bridge|WARN|could not open network device tapccc30f1a-05 (No such device)
+2026-07-21T16:52:00.912Z|00270|bridge|INFO|bridge br-int: added interface tapccc30f1a-05 on port 68
+2026-07-21T16:52:04.521Z|00271|bridge|INFO|bridge br-int: deleted interface tapccc30f1a-05 on port 68
+2026-07-21T16:52:04.524Z|00272|bridge|WARN|could not open network device tapccc30f1a-05 (No such device)
+2026-07-21T16:52:09.798Z|00273|bridge|WARN|could not open network device tapccc30f1a-05 (No such device)
+2026-07-21T16:52:09.802Z|00274|bridge|INFO|bridge br-int: added interface tapccc30f1a-05 on port 69
+2026-07-21T16:52:37.286Z|00275|bridge|INFO|bridge br-int: deleted interface tapeef18315-36 on port 66
+2026-07-21T16:52:37.289Z|00276|bridge|WARN|could not open network device tapeef18315-36 (No such device)
+2026-07-21T16:52:37.320Z|00277|bridge|INFO|bridge br-int: deleted interface tap72f052b8-50 on port 67
+2026-07-21T16:52:37.648Z|00278|bridge|WARN|could not open network device tapeef18315-36 (No such device)
+2026-07-21T16:52:37.652Z|00279|bridge|INFO|bridge br-int: added interface tapeef18315-36 on port 70
+2026-07-21T16:52:37.910Z|00280|bridge|INFO|bridge br-int: added interface tap72f052b8-50 on port 71
+2026-07-21T16:52:43.070Z|00281|connmgr|INFO|br-int<->unix#1: 533 flow_mods in the 46 s starting 51 s ago (260 adds, 273 deletes)
+2026-07-21T16:52:43.597Z|00282|bridge|INFO|bridge br-int: deleted interface tapccc30f1a-05 on port 69
+2026-07-21T16:52:43.600Z|00283|bridge|WARN|could not open network device tapccc30f1a-05 (No such device)
+2026-07-21T16:52:47.126Z|00284|bridge|INFO|bridge br-int: deleted interface tapbdb7cbc9-11 on port 53
+2026-07-21T16:52:47.129Z|00285|bridge|WARN|could not open network device tapbdb7cbc9-11 (No such device)
+2026-07-21T16:52:47.154Z|00286|bridge|INFO|bridge br-int: deleted interface tap4e9a2cf3-80 on port 54
+2026-07-21T16:52:59.242Z|00287|bridge|WARN|could not open network device tapdbe04215-e8 (No such device)
+2026-07-21T16:52:59.247Z|00288|bridge|INFO|bridge br-int: added interface tapdbe04215-e8 on port 72
+2026-07-21T16:52:59.529Z|00289|bridge|INFO|bridge br-int: added interface tapdc05f953-10 on port 73
+2026-07-21T16:53:01.056Z|00290|bridge|WARN|could not open network device tap4afb2d59-52 (No such device)
+2026-07-21T16:53:01.061Z|00291|bridge|INFO|bridge br-int: added interface tap4afb2d59-52 on port 74
+2026-07-21T16:53:01.390Z|00292|bridge|INFO|bridge br-int: added interface tap20651ccf-e0 on port 75
+2026-07-21T16:53:02.038Z|00293|bridge|WARN|could not open network device tap6b771b47-a3 (No such device)
+2026-07-21T16:53:02.044Z|00294|bridge|INFO|bridge br-int: added interface tap6b771b47-a3 on port 76
+2026-07-21T16:53:02.358Z|00295|bridge|INFO|bridge br-int: added interface tapad1c42f3-80 on port 77
+2026-07-21T16:53:05.859Z|00296|bridge|INFO|bridge br-int: deleted interface tapeef18315-36 on port 70
+2026-07-21T16:53:05.862Z|00297|bridge|WARN|could not open network device tapeef18315-36 (No such device)
+2026-07-21T16:53:05.888Z|00298|bridge|INFO|bridge br-int: deleted interface tap72f052b8-50 on port 71
+2026-07-21T16:53:06.920Z|00299|bridge|INFO|bridge br-int: deleted interface tap4afb2d59-52 on port 74
+2026-07-21T16:53:06.923Z|00300|bridge|WARN|could not open network device tap4afb2d59-52 (No such device)
+2026-07-21T16:53:06.948Z|00301|bridge|INFO|bridge br-int: deleted interface tap20651ccf-e0 on port 75
+2026-07-21T16:53:11.046Z|00302|bridge|WARN|could not open network device tap3a5b1661-19 (No such device)
+2026-07-21T16:53:11.051Z|00303|bridge|INFO|bridge br-int: added interface tap3a5b1661-19 on port 78
+2026-07-21T16:53:11.350Z|00304|bridge|INFO|bridge br-int: added interface tap72f052b8-50 on port 79
+2026-07-21T16:53:40.524Z|00305|bridge|INFO|bridge br-int: deleted interface tap6b771b47-a3 on port 76
+2026-07-21T16:53:40.527Z|00306|bridge|WARN|could not open network device tap6b771b47-a3 (No such device)
+2026-07-21T16:53:40.558Z|00307|bridge|INFO|bridge br-int: deleted interface tapad1c42f3-80 on port 77
+2026-07-21T16:53:42.992Z|00308|bridge|INFO|bridge br-int: deleted interface tapdbe04215-e8 on port 72
+2026-07-21T16:53:42.996Z|00309|bridge|WARN|could not open network device tapdbe04215-e8 (No such device)
+2026-07-21T16:53:43.023Z|00310|bridge|INFO|bridge br-int: deleted interface tapdc05f953-10 on port 73
+2026-07-21T16:53:43.071Z|00311|connmgr|INFO|br-int<->unix#1: 3666 flow_mods in the last 59 s (1776 adds, 1876 deletes, 14 modifications)
+2026-07-21T16:53:52.333Z|00312|bridge|WARN|could not open network device tapdbe04215-e8 (No such device)
+2026-07-21T16:53:52.340Z|00313|bridge|INFO|bridge br-int: added interface tapdbe04215-e8 on port 80
+2026-07-21T16:53:52.719Z|00314|bridge|INFO|bridge br-int: added interface tapdc05f953-10 on port 81
+2026-07-21T16:53:53.520Z|00315|bridge|WARN|could not open network device tap2e4784e4-31 (No such device)
+2026-07-21T16:53:53.525Z|00316|bridge|INFO|bridge br-int: added interface tap2e4784e4-31 on port 82
+2026-07-21T16:53:53.807Z|00317|bridge|INFO|bridge br-int: added interface tap631c642a-60 on port 83
+2026-07-21T16:54:03.439Z|00318|bridge|INFO|bridge br-int: deleted interface tap3a5b1661-19 on port 78
+2026-07-21T16:54:03.442Z|00319|bridge|WARN|could not open network device tap3a5b1661-19 (No such device)
+2026-07-21T16:54:03.467Z|00320|bridge|INFO|bridge br-int: deleted interface tap72f052b8-50 on port 79
+2026-07-21T16:54:33.096Z|00321|bridge|INFO|bridge br-int: deleted interface tapdbe04215-e8 on port 80
+2026-07-21T16:54:33.099Z|00322|bridge|WARN|could not open network device tapdbe04215-e8 (No such device)
+2026-07-21T16:54:33.126Z|00323|bridge|INFO|bridge br-int: deleted interface tapdc05f953-10 on port 81
+2026-07-21T16:54:33.129Z|00324|bridge|WARN|could not open network device tapdbe04215-e8 (No such device)
+2026-07-21T16:54:39.269Z|00325|bridge|WARN|could not open network device tapf79b0ad9-76 (No such device)
+2026-07-21T16:54:39.276Z|00326|bridge|INFO|bridge br-int: added interface tapf79b0ad9-76 on port 84
+2026-07-21T16:54:39.575Z|00327|bridge|INFO|bridge br-int: added interface tapdc05f953-10 on port 85
+2026-07-21T16:54:43.070Z|00328|connmgr|INFO|br-int<->unix#1: 1858 flow_mods in the 56 s starting 57 s ago (782 adds, 1070 deletes, 6 modifications)
+2026-07-21T16:54:52.791Z|00329|bridge|INFO|bridge br-int: deleted interface tap2e4784e4-31 on port 82
+2026-07-21T16:54:52.794Z|00330|bridge|WARN|could not open network device tap2e4784e4-31 (No such device)
+2026-07-21T16:54:52.839Z|00331|bridge|INFO|bridge br-int: deleted interface tap631c642a-60 on port 83
+2026-07-21T16:55:12.895Z|00332|bridge|INFO|bridge br-int: deleted interface tapf79b0ad9-76 on port 84
+2026-07-21T16:55:12.899Z|00333|bridge|WARN|could not open network device tapf79b0ad9-76 (No such device)
+2026-07-21T16:55:12.919Z|00334|bridge|INFO|bridge br-int: deleted interface tapdc05f953-10 on port 85
+2026-07-21T16:55:18.842Z|00335|bridge|WARN|could not open network device tapf79b0ad9-76 (No such device)
+2026-07-21T16:55:18.847Z|00336|bridge|INFO|bridge br-int: added interface tapf79b0ad9-76 on port 86
+2026-07-21T16:55:19.145Z|00337|bridge|INFO|bridge br-int: added interface tapdc05f953-10 on port 87
+2026-07-21T16:55:39.704Z|00338|bridge|WARN|could not open network device tape9f70221-92 (No such device)
+2026-07-21T16:55:39.709Z|00339|bridge|INFO|bridge br-int: added interface tape9f70221-92 on port 88
+2026-07-21T16:55:39.970Z|00340|bridge|INFO|bridge br-int: added interface tapf77c29d6-e0 on port 89
+2026-07-21T16:55:42.633Z|00341|bridge|INFO|bridge br-int: deleted interface tapf79b0ad9-76 on port 86
+2026-07-21T16:55:42.636Z|00342|bridge|WARN|could not open network device tapf79b0ad9-76 (No such device)
+2026-07-21T16:55:42.669Z|00343|bridge|INFO|bridge br-int: deleted interface tapdc05f953-10 on port 87
+2026-07-21T16:55:43.071Z|00344|connmgr|INFO|br-int<->unix#1: 1279 flow_mods in the last 50 s (941 adds, 332 deletes, 6 modifications)
+2026-07-21T16:55:55.877Z|00345|bridge|WARN|could not open network device tapac7b74a8-a3 (No such device)
+2026-07-21T16:55:55.880Z|00346|bridge|INFO|bridge br-int: added interface tapac7b74a8-a3 on port 90
+2026-07-21T16:55:56.147Z|00347|bridge|INFO|bridge br-int: added interface tap45cb248c-10 on port 91
+2026-07-21T16:55:57.647Z|00348|bridge|WARN|could not open network device tap3ff1c1ec-21 (No such device)
+2026-07-21T16:55:57.651Z|00349|bridge|INFO|bridge br-int: added interface tap3ff1c1ec-21 on port 92
+2026-07-21T16:55:57.870Z|00350|bridge|INFO|bridge br-int: added interface tap631c642a-60 on port 93
+2026-07-21T16:56:17.427Z|00351|bridge|INFO|bridge br-int: deleted interface tape9f70221-92 on port 88
+2026-07-21T16:56:17.430Z|00352|bridge|WARN|could not open network device tape9f70221-92 (No such device)
+2026-07-21T16:56:17.454Z|00353|bridge|INFO|bridge br-int: deleted interface tapf77c29d6-e0 on port 89
+2026-07-21T16:56:38.146Z|00354|bridge|WARN|could not open network device tap6f0fac07-e9 (No such device)
+2026-07-21T16:56:38.150Z|00355|bridge|INFO|bridge br-int: added interface tap6f0fac07-e9 on port 94
+2026-07-21T16:56:43.073Z|00356|connmgr|INFO|br-int<->unix#1: 2512 flow_mods in the 56 s starting 59 s ago (1149 adds, 1353 deletes, 10 modifications)
+2026-07-21T16:57:06.632Z|00357|bridge|WARN|could not open network device tap48457a24-2d (No such device)
+2026-07-21T16:57:06.635Z|00358|bridge|INFO|bridge br-int: added interface tap48457a24-2d on port 95
+2026-07-21T16:57:06.887Z|00359|bridge|INFO|bridge br-int: added interface tap86c7898c-50 on port 96
+2026-07-21T16:57:10.352Z|00360|bridge|INFO|bridge br-int: deleted interface tap6f0fac07-e9 on port 94
+2026-07-21T16:57:10.355Z|00361|bridge|WARN|could not open network device tap6f0fac07-e9 (No such device)
+2026-07-21T16:57:14.393Z|00362|bridge|INFO|bridge br-int: deleted interface tap3ff1c1ec-21 on port 92
+2026-07-21T16:57:14.396Z|00363|bridge|WARN|could not open network device tap3ff1c1ec-21 (No such device)
+2026-07-21T16:57:14.433Z|00364|bridge|INFO|bridge br-int: deleted interface tap631c642a-60 on port 93
+2026-07-21T16:57:15.312Z|00365|bridge|INFO|bridge br-int: deleted interface tapac7b74a8-a3 on port 90
+2026-07-21T16:57:15.315Z|00366|bridge|WARN|could not open network device tapac7b74a8-a3 (No such device)
+2026-07-21T16:57:15.342Z|00367|bridge|INFO|bridge br-int: deleted interface tap45cb248c-10 on port 91
+2026-07-21T16:57:19.699Z|00368|bridge|WARN|could not open network device tap744171fd-91 (No such device)
+2026-07-21T16:57:19.702Z|00369|bridge|INFO|bridge br-int: added interface tap744171fd-91 on port 97
+2026-07-21T16:57:19.964Z|00370|bridge|INFO|bridge br-int: added interface tap45cb248c-10 on port 98
+2026-07-21T16:57:34.796Z|00371|bridge|WARN|could not open network device tapf677ec8b-f5 (No such device)
+2026-07-21T16:57:34.802Z|00372|bridge|INFO|bridge br-int: added interface tapf677ec8b-f5 on port 99
+2026-07-21T16:57:35.088Z|00373|bridge|INFO|bridge br-int: added interface tap43cbf984-90 on port 100
+2026-07-21T16:57:36.527Z|00374|bridge|INFO|bridge br-int: deleted interface tapf677ec8b-f5 on port 99
+2026-07-21T16:57:36.530Z|00375|bridge|WARN|could not open network device tapf677ec8b-f5 (No such device)
+2026-07-21T16:57:36.547Z|00376|bridge|INFO|bridge br-int: deleted interface tap43cbf984-90 on port 100
+2026-07-21T16:57:36.550Z|00377|bridge|WARN|could not open network device tapf677ec8b-f5 (No such device)
+2026-07-21T16:57:43.070Z|00378|connmgr|INFO|br-int<->unix#1: 1568 flow_mods in the 31 s starting 37 s ago (645 adds, 919 deletes, 4 modifications)
+2026-07-21T16:57:47.426Z|00379|bridge|INFO|bridge br-int: deleted interface tap48457a24-2d on port 95
+2026-07-21T16:57:47.430Z|00380|bridge|WARN|could not open network device tap48457a24-2d (No such device)
+2026-07-21T16:57:47.455Z|00381|bridge|INFO|bridge br-int: deleted interface tap86c7898c-50 on port 96
+2026-07-21T16:57:56.418Z|00382|bridge|WARN|could not open network device tap8f656706-04 (No such device)
+2026-07-21T16:57:56.423Z|00383|bridge|INFO|bridge br-int: added interface tap8f656706-04 on port 101
+2026-07-21T16:57:56.699Z|00384|bridge|INFO|bridge br-int: added interface tapdd84589c-00 on port 102
+2026-07-21T16:57:56.839Z|00385|bridge|WARN|could not open network device tap12e491ac-5a (No such device)
+2026-07-21T16:57:56.845Z|00386|bridge|INFO|bridge br-int: added interface tap12e491ac-5a on port 103
+2026-07-21T16:57:57.143Z|00387|bridge|INFO|bridge br-int: added interface tap86c7898c-50 on port 104
+2026-07-21T16:58:01.716Z|00388|bridge|INFO|bridge br-int: deleted interface tap744171fd-91 on port 97
+2026-07-21T16:58:01.718Z|00389|bridge|WARN|could not open network device tap744171fd-91 (No such device)
+2026-07-21T16:58:01.747Z|00390|bridge|INFO|bridge br-int: deleted interface tap45cb248c-10 on port 98
+2026-07-21T16:58:06.085Z|00391|bridge|WARN|could not open network device tap5f6cc545-09 (No such device)
+2026-07-21T16:58:06.091Z|00392|bridge|INFO|bridge br-int: added interface tap5f6cc545-09 on port 105
+2026-07-21T16:58:06.368Z|00393|bridge|INFO|bridge br-int: added interface tap45cb248c-10 on port 106
+2026-07-21T16:58:41.477Z|00394|bridge|INFO|bridge br-int: deleted interface tap8f656706-04 on port 101
+2026-07-21T16:58:41.481Z|00395|bridge|WARN|could not open network device tap8f656706-04 (No such device)
+2026-07-21T16:58:41.505Z|00396|bridge|INFO|bridge br-int: deleted interface tapdd84589c-00 on port 102
+2026-07-21T16:58:43.070Z|00397|connmgr|INFO|br-int<->unix#1: 1808 flow_mods in the last 55 s (1229 adds, 575 deletes, 4 modifications)
+2026-07-21T16:58:44.257Z|00398|bridge|INFO|bridge br-int: deleted interface tap12e491ac-5a on port 103
+2026-07-21T16:58:44.261Z|00399|bridge|WARN|could not open network device tap12e491ac-5a (No such device)
+2026-07-21T16:58:44.278Z|00400|bridge|INFO|bridge br-int: deleted interface tap86c7898c-50 on port 104
+2026-07-21T16:58:46.821Z|00401|bridge|INFO|bridge br-int: deleted interface tap5f6cc545-09 on port 105
+2026-07-21T16:58:46.823Z|00402|bridge|WARN|could not open network device tap5f6cc545-09 (No such device)
+2026-07-21T16:58:46.842Z|00403|bridge|INFO|bridge br-int: deleted interface tap45cb248c-10 on port 106
+2026-07-21T16:58:56.753Z|00404|bridge|WARN|could not open network device tap42c20aa0-b6 (No such device)
+2026-07-21T16:58:56.757Z|00405|bridge|INFO|bridge br-int: added interface tap42c20aa0-b6 on port 107
+2026-07-21T16:58:57.033Z|00406|bridge|INFO|bridge br-int: added interface tape710135c-10 on port 108
+2026-07-21T16:59:13.411Z|00407|bridge|WARN|could not open network device tap0ae15af4-21 (No such device)
+2026-07-21T16:59:13.414Z|00408|bridge|INFO|bridge br-int: added interface tap0ae15af4-21 on port 109
+2026-07-21T16:59:13.691Z|00409|bridge|INFO|bridge br-int: added interface tap5d216bdb-c0 on port 110
+2026-07-21T16:59:41.269Z|00410|bridge|WARN|could not open network device tap6a957f0c-81 (No such device)
+2026-07-21T16:59:41.273Z|00411|bridge|INFO|bridge br-int: added interface tap6a957f0c-81 on port 111
+2026-07-21T16:59:41.563Z|00412|bridge|INFO|bridge br-int: added interface tap0ecb7163-d0 on port 112
+2026-07-21T16:59:43.070Z|00413|connmgr|INFO|br-int<->unix#1: 4202 flow_mods in the 58 s starting 59 s ago (2279 adds, 1905 deletes, 18 modifications)
+2026-07-21T16:59:44.393Z|00414|bridge|INFO|bridge br-int: deleted interface tap6a957f0c-81 on port 111
+2026-07-21T16:59:44.396Z|00415|bridge|WARN|could not open network device tap6a957f0c-81 (No such device)
+2026-07-21T16:59:44.416Z|00416|bridge|INFO|bridge br-int: deleted interface tap0ecb7163-d0 on port 112
+2026-07-21T16:59:44.420Z|00417|bridge|WARN|could not open network device tap6a957f0c-81 (No such device)
+2026-07-21T16:59:46.065Z|00418|bridge|INFO|bridge br-int: deleted interface tap0ae15af4-21 on port 109
+2026-07-21T16:59:46.069Z|00419|bridge|WARN|could not open network device tap0ae15af4-21 (No such device)
+2026-07-21T16:59:46.098Z|00420|bridge|INFO|bridge br-int: deleted interface tap5d216bdb-c0 on port 110
+2026-07-21T16:59:46.474Z|00421|bridge|INFO|bridge br-int: deleted interface tap42c20aa0-b6 on port 107
+2026-07-21T16:59:46.477Z|00422|bridge|WARN|could not open network device tap42c20aa0-b6 (No such device)
+2026-07-21T16:59:46.495Z|00423|bridge|INFO|bridge br-int: deleted interface tape710135c-10 on port 108
+2026-07-21T16:59:47.899Z|00424|bridge|WARN|could not open network device tapde792921-2a (No such device)
+2026-07-21T16:59:47.903Z|00425|bridge|INFO|bridge br-int: added interface tapde792921-2a on port 113
+2026-07-21T16:59:48.172Z|00426|bridge|INFO|bridge br-int: added interface tap0ecb7163-d0 on port 114
+2026-07-21T16:59:49.912Z|00427|bridge|WARN|could not open network device tap0ae15af4-21 (No such device)
+2026-07-21T16:59:49.918Z|00428|bridge|INFO|bridge br-int: added interface tap0ae15af4-21 on port 115
+2026-07-21T16:59:50.200Z|00429|bridge|INFO|bridge br-int: added interface tap5d216bdb-c0 on port 116
+2026-07-21T16:59:51.219Z|00430|bridge|INFO|bridge br-int: deleted interface tapde792921-2a on port 113
+2026-07-21T16:59:51.222Z|00431|bridge|WARN|could not open network device tapde792921-2a (No such device)
+2026-07-21T16:59:51.280Z|00432|bridge|INFO|bridge br-int: deleted interface tap0ecb7163-d0 on port 114
+2026-07-21T17:00:19.995Z|00433|bridge|INFO|bridge br-int: deleted interface tap0ae15af4-21 on port 115
+2026-07-21T17:00:19.998Z|00434|bridge|WARN|could not open network device tap0ae15af4-21 (No such device)
+2026-07-21T17:00:20.022Z|00435|bridge|INFO|bridge br-int: deleted interface tap5d216bdb-c0 on port 116
+2026-07-21T17:00:23.871Z|00436|bridge|WARN|could not open network device tapb3183690-a2 (No such device)
+2026-07-21T17:00:23.875Z|00437|bridge|INFO|bridge br-int: added interface tapb3183690-a2 on port 117
+2026-07-21T17:00:24.157Z|00438|bridge|INFO|bridge br-int: added interface tap5d216bdb-c0 on port 118
+2026-07-21T17:00:34.442Z|00439|bridge|WARN|could not open network device tapb2cfd130-71 (No such device)
+2026-07-21T17:00:34.447Z|00440|bridge|INFO|bridge br-int: added interface tapb2cfd130-71 on port 119
+2026-07-21T17:00:34.725Z|00441|bridge|INFO|bridge br-int: added interface tap0f94e576-10 on port 120
+2026-07-21T17:00:43.070Z|00442|connmgr|INFO|br-int<->unix#1: 3957 flow_mods in the 56 s starting 58 s ago (2081 adds, 1860 deletes, 16 modifications)
+2026-07-21T17:00:53.964Z|00443|bridge|WARN|could not open network device tapd17688b7-e6 (No such device)
+2026-07-21T17:00:53.970Z|00444|bridge|INFO|bridge br-int: added interface tapd17688b7-e6 on port 121
+2026-07-21T17:00:54.251Z|00445|bridge|INFO|bridge br-int: added interface tap9f6a9818-80 on port 122
+2026-07-21T17:01:07.258Z|00446|bridge|INFO|bridge br-int: deleted interface tapb2cfd130-71 on port 119
+2026-07-21T17:01:07.262Z|00447|bridge|WARN|could not open network device tapb2cfd130-71 (No such device)
+2026-07-21T17:01:07.290Z|00448|bridge|INFO|bridge br-int: deleted interface tap0f94e576-10 on port 120
+2026-07-21T17:01:43.070Z|00449|connmgr|INFO|br-int<->unix#1: 1131 flow_mods in the 49 s starting 52 s ago (222 adds, 907 deletes, 2 modifications)
+2026-07-21T17:01:46.104Z|00450|bridge|INFO|bridge br-int: deleted interface tapb3183690-a2 on port 117
+2026-07-21T17:01:46.107Z|00451|bridge|WARN|could not open network device tapb3183690-a2 (No such device)
+2026-07-21T17:01:46.124Z|00452|bridge|INFO|bridge br-int: deleted interface tap5d216bdb-c0 on port 118
+2026-07-21T17:01:54.314Z|00453|bridge|INFO|bridge br-int: deleted interface tapd17688b7-e6 on port 121
+2026-07-21T17:01:54.317Z|00454|bridge|WARN|could not open network device tapd17688b7-e6 (No such device)
+2026-07-21T17:01:54.344Z|00455|bridge|INFO|bridge br-int: deleted interface tap9f6a9818-80 on port 122
+2026-07-21T17:02:06.387Z|00456|bridge|WARN|could not open network device tap5207093d-b2 (No such device)
+2026-07-21T17:02:06.391Z|00457|bridge|INFO|bridge br-int: added interface tap5207093d-b2 on port 123
+2026-07-21T17:02:06.638Z|00458|bridge|INFO|bridge br-int: added interface tap888652a1-f0 on port 124
+2026-07-21T17:02:18.850Z|00459|bridge|WARN|could not open network device tapc7f8929d-07 (No such device)
+2026-07-21T17:02:18.854Z|00460|bridge|INFO|bridge br-int: added interface tapc7f8929d-07 on port 125
+2026-07-21T17:02:19.123Z|00461|bridge|INFO|bridge br-int: added interface tapd8b46d2b-b0 on port 126
+2026-07-21T17:02:43.070Z|00462|connmgr|INFO|br-int<->unix#1: 3581 flow_mods in the 54 s starting 56 s ago (1796 adds, 1773 deletes, 12 modifications)
+2026-07-21T17:02:43.631Z|00463|bridge|INFO|bridge br-int: deleted interface tap5207093d-b2 on port 123
+2026-07-21T17:02:43.634Z|00464|bridge|WARN|could not open network device tap5207093d-b2 (No such device)
+2026-07-21T17:02:43.661Z|00465|bridge|INFO|bridge br-int: deleted interface tap888652a1-f0 on port 124
+2026-07-21T17:02:53.889Z|00466|bridge|INFO|bridge br-int: deleted interface tapc7f8929d-07 on port 125
+2026-07-21T17:02:53.893Z|00467|bridge|WARN|could not open network device tapc7f8929d-07 (No such device)
+2026-07-21T17:02:53.931Z|00468|bridge|INFO|bridge br-int: deleted interface tapd8b46d2b-b0 on port 126
+2026-07-21T17:02:55.933Z|00469|bridge|WARN|could not open network device tapd172503f-0c (No such device)
+2026-07-21T17:02:55.936Z|00470|bridge|INFO|bridge br-int: added interface tapd172503f-0c on port 127
+2026-07-21T17:02:56.210Z|00471|bridge|INFO|bridge br-int: added interface tap888652a1-f0 on port 128
+2026-07-21T17:03:03.646Z|00472|bridge|WARN|could not open network device tapc7f8929d-07 (No such device)
+2026-07-21T17:03:03.654Z|00473|bridge|INFO|bridge br-int: added interface tapc7f8929d-07 on port 129
+2026-07-21T17:03:03.944Z|00474|bridge|INFO|bridge br-int: added interface tapd8b46d2b-b0 on port 130
+2026-07-21T17:03:30.988Z|00475|bridge|INFO|bridge br-int: deleted interface tapd172503f-0c on port 127
+2026-07-21T17:03:30.991Z|00476|bridge|WARN|could not open network device tapd172503f-0c (No such device)
+2026-07-21T17:03:31.028Z|00477|bridge|INFO|bridge br-int: deleted interface tap888652a1-f0 on port 128
+2026-07-21T17:03:31.303Z|00478|bridge|INFO|bridge br-int: deleted interface tapc7f8929d-07 on port 129
+2026-07-21T17:03:31.306Z|00479|bridge|WARN|could not open network device tapc7f8929d-07 (No such device)
+2026-07-21T17:03:31.335Z|00480|bridge|INFO|bridge br-int: deleted interface tapd8b46d2b-b0 on port 130
+2026-07-21T17:03:34.794Z|00481|bridge|WARN|could not open network device tapd172503f-0c (No such device)
+2026-07-21T17:03:34.798Z|00482|bridge|INFO|bridge br-int: added interface tapd172503f-0c on port 131
+2026-07-21T17:03:35.084Z|00483|bridge|INFO|bridge br-int: added interface tap888652a1-f0 on port 132
+2026-07-21T17:03:38.055Z|00484|bridge|INFO|bridge br-int: deleted interface tapd172503f-0c on port 131
+2026-07-21T17:03:38.059Z|00485|bridge|WARN|could not open network device tapd172503f-0c (No such device)
+2026-07-21T17:03:38.099Z|00486|bridge|INFO|bridge br-int: deleted interface tap888652a1-f0 on port 132
+2026-07-21T17:03:43.070Z|00487|connmgr|INFO|br-int<->unix#1: 2246 flow_mods in the 58 s starting 59 s ago (878 adds, 1360 deletes, 8 modifications)
+2026-07-21T17:03:48.213Z|00488|bridge|WARN|could not open network device tapd3855505-00 (No such device)
+2026-07-21T17:03:48.217Z|00489|bridge|INFO|bridge br-int: added interface tapd3855505-00 on port 133
+2026-07-21T17:03:48.504Z|00490|bridge|INFO|bridge br-int: added interface tap75544948-c0 on port 134
+2026-07-21T17:03:52.873Z|00491|bridge|WARN|could not open network device tape14084bc-2b (No such device)
+2026-07-21T17:03:52.880Z|00492|bridge|INFO|bridge br-int: added interface tape14084bc-2b on port 135
+2026-07-21T17:03:53.184Z|00493|bridge|INFO|bridge br-int: added interface tap888652a1-f0 on port 136
+2026-07-21T17:03:56.196Z|00494|bridge|INFO|bridge br-int: deleted interface tape14084bc-2b on port 135
+2026-07-21T17:03:56.198Z|00495|bridge|WARN|could not open network device tape14084bc-2b (No such device)
+2026-07-21T17:03:56.229Z|00496|bridge|INFO|bridge br-int: deleted interface tap888652a1-f0 on port 136
+2026-07-21T17:04:07.275Z|00497|bridge|WARN|could not open network device tap82e65e16-0d (No such device)
+2026-07-21T17:04:07.278Z|00498|bridge|INFO|bridge br-int: added interface tap82e65e16-0d on port 137
+2026-07-21T17:04:07.536Z|00499|bridge|INFO|bridge br-int: added interface tap888652a1-f0 on port 138
+2026-07-21T17:04:25.522Z|00500|bridge|WARN|could not open network device tap6c354ae0-70 (No such device)
+2026-07-21T17:04:25.525Z|00501|bridge|INFO|bridge br-int: added interface tap6c354ae0-70 on port 139
+2026-07-21T17:04:25.763Z|00502|bridge|INFO|bridge br-int: added interface tap1ced1018-80 on port 140
+2026-07-21T17:04:35.025Z|00503|bridge|WARN|could not open network device tap7d275518-6e (No such device)
+2026-07-21T17:04:35.032Z|00504|bridge|INFO|bridge br-int: added interface tap7d275518-6e on port 141
+2026-07-21T17:04:43.070Z|00505|connmgr|INFO|br-int<->unix#1: 1859 flow_mods in the 53 s starting 58 s ago (1621 adds, 230 deletes, 8 modifications)
+2026-07-21T17:04:50.193Z|00506|bridge|WARN|could not open network device tap4c78e35f-f3 (No such device)
+2026-07-21T17:04:50.197Z|00507|bridge|INFO|bridge br-int: added interface tap4c78e35f-f3 on port 142
+2026-07-21T17:05:22.008Z|00508|bridge|INFO|bridge br-int: deleted interface tap7d275518-6e on port 141
+2026-07-21T17:05:22.012Z|00509|bridge|WARN|could not open network device tap7d275518-6e (No such device)
+2026-07-21T17:05:26.077Z|00510|bridge|INFO|bridge br-int: deleted interface tapd3855505-00 on port 133
+2026-07-21T17:05:26.080Z|00511|bridge|WARN|could not open network device tapd3855505-00 (No such device)
+2026-07-21T17:05:26.133Z|00512|bridge|INFO|bridge br-int: deleted interface tap75544948-c0 on port 134
+2026-07-21T17:05:28.802Z|00513|bridge|INFO|bridge br-int: deleted interface tap4c78e35f-f3 on port 142
+2026-07-21T17:05:28.805Z|00514|bridge|WARN|could not open network device tap4c78e35f-f3 (No such device)
+2026-07-21T17:05:33.428Z|00515|bridge|INFO|bridge br-int: deleted interface tap82e65e16-0d on port 137
+2026-07-21T17:05:33.430Z|00516|bridge|WARN|could not open network device tap82e65e16-0d (No such device)
+2026-07-21T17:05:33.457Z|00517|bridge|INFO|bridge br-int: deleted interface tap888652a1-f0 on port 138
+2026-07-21T17:05:43.070Z|00518|connmgr|INFO|br-int<->unix#1: 2130 flow_mods in the 56 s starting 59 s ago (916 adds, 1206 deletes, 8 modifications)
+2026-07-21T17:05:43.509Z|00519|bridge|WARN|could not open network device tap1a446120-f6 (No such device)
+2026-07-21T17:05:43.515Z|00520|bridge|INFO|bridge br-int: added interface tap1a446120-f6 on port 143
+2026-07-21T17:05:43.808Z|00521|bridge|INFO|bridge br-int: added interface tap888652a1-f0 on port 144
+2026-07-21T17:05:47.279Z|00522|bridge|WARN|could not open network device tap8a1c9cf7-44 (No such device)
+2026-07-21T17:05:47.283Z|00523|bridge|INFO|bridge br-int: added interface tap8a1c9cf7-44 on port 145
+2026-07-21T17:05:47.584Z|00524|bridge|INFO|bridge br-int: added interface tap18349898-30 on port 146
+2026-07-21T17:05:56.369Z|00525|bridge|INFO|bridge br-int: deleted interface tap6c354ae0-70 on port 139
+2026-07-21T17:05:56.372Z|00526|bridge|WARN|could not open network device tap6c354ae0-70 (No such device)
+2026-07-21T17:05:56.413Z|00527|bridge|INFO|bridge br-int: deleted interface tap1ced1018-80 on port 140
+2026-07-21T17:06:13.685Z|00528|bridge|INFO|bridge br-int: deleted interface tap1a446120-f6 on port 143
+2026-07-21T17:06:13.688Z|00529|bridge|WARN|could not open network device tap1a446120-f6 (No such device)
+2026-07-21T17:06:13.710Z|00530|bridge|INFO|bridge br-int: deleted interface tap888652a1-f0 on port 144
+2026-07-21T17:06:20.277Z|00531|bridge|WARN|could not open network device tap71c7b8a1-8e (No such device)
+2026-07-21T17:06:20.282Z|00532|bridge|INFO|bridge br-int: added interface tap71c7b8a1-8e on port 147
+2026-07-21T17:06:20.535Z|00533|bridge|INFO|bridge br-int: added interface tap888652a1-f0 on port 148
+2026-07-21T17:06:27.841Z|00534|bridge|WARN|could not open network device tapb0d59d38-5b (No such device)
+2026-07-21T17:06:27.846Z|00535|bridge|INFO|bridge br-int: added interface tapb0d59d38-5b on port 149
+2026-07-21T17:06:43.070Z|00536|connmgr|INFO|br-int<->unix#1: 1626 flow_mods in the 45 s starting 59 s ago (542 adds, 1080 deletes, 4 modifications)
+2026-07-21T17:07:06.582Z|00537|bridge|WARN|could not open network device tap4a292122-bc (No such device)
+2026-07-21T17:07:06.586Z|00538|bridge|INFO|bridge br-int: added interface tap4a292122-bc on port 150
+2026-07-21T17:07:12.680Z|00539|bridge|WARN|could not open network device tapd488f34f-93 (No such device)
+2026-07-21T17:07:12.685Z|00540|bridge|INFO|bridge br-int: added interface tapd488f34f-93 on port 151
+2026-07-21T17:07:43.070Z|00541|connmgr|INFO|br-int<->unix#1: 162 flow_mods in the 11 s starting 40 s ago (150 adds, 12 deletes)
+2026-07-21T17:07:45.426Z|00542|bridge|INFO|bridge br-int: deleted interface tap4a292122-bc on port 150
+2026-07-21T17:07:45.429Z|00543|bridge|WARN|could not open network device tap4a292122-bc (No such device)
+2026-07-21T17:07:50.113Z|00544|bridge|INFO|bridge br-int: deleted interface tap71c7b8a1-8e on port 147
+2026-07-21T17:07:50.116Z|00545|bridge|WARN|could not open network device tap71c7b8a1-8e (No such device)
+2026-07-21T17:07:50.149Z|00546|bridge|INFO|bridge br-int: deleted interface tap888652a1-f0 on port 148
+2026-07-21T17:07:50.663Z|00547|bridge|INFO|bridge br-int: deleted interface tapd488f34f-93 on port 151
+2026-07-21T17:07:50.666Z|00548|bridge|WARN|could not open network device tapd488f34f-93 (No such device)
+2026-07-21T17:07:59.889Z|00549|bridge|INFO|bridge br-int: deleted interface tapb0d59d38-5b on port 149
+2026-07-21T17:07:59.892Z|00550|bridge|WARN|could not open network device tapb0d59d38-5b (No such device)
+2026-07-21T17:08:09.086Z|00551|bridge|INFO|bridge br-int: deleted interface tap8a1c9cf7-44 on port 145
+2026-07-21T17:08:09.089Z|00552|bridge|WARN|could not open network device tap8a1c9cf7-44 (No such device)
+2026-07-21T17:08:09.119Z|00553|bridge|INFO|bridge br-int: deleted interface tap18349898-30 on port 146
+2026-07-21T17:08:43.071Z|00554|connmgr|INFO|br-int<->unix#1: 2041 flow_mods in the 29 s starting 58 s ago (89 adds, 1952 deletes)
+2026-07-21T17:11:55.825Z|00555|connmgr|INFO|br-int<->unix#1: 708 flow_mods in the 5 s starting 10 s ago (690 adds, 14 deletes, 4 modifications)
+2026-07-21T17:12:55.825Z|00556|connmgr|INFO|br-int<->unix#1: 708 flow_mods in the 1 s starting 57 s ago (16 adds, 692 deletes)
