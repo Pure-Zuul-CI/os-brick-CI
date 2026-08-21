@@ -1,0 +1,237 @@
+2026-08-21 17:35:01.893429+00:00 [notice] <0.230.0> Logging: configured log handlers are now ACTIVE
+2026-08-21 17:35:01.986869+00:00 [info] <0.230.0> ra: starting system quorum_queues
+2026-08-21 17:35:01.986930+00:00 [info] <0.230.0> starting Ra system: quorum_queues in directory: /var/lib/rabbitmq/mnesia/rabbit@np0000042577/quorum/rabbit@np0000042577
+2026-08-21 17:35:02.016521+00:00 [info] <0.262.0> ra system 'quorum_queues' running pre init for 0 registered servers
+2026-08-21 17:35:02.021126+00:00 [info] <0.263.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered
+2026-08-21 17:35:02.027754+00:00 [notice] <0.268.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables
+2026-08-21 17:35:02.032356+00:00 [info] <0.230.0> ra: starting system coordination
+2026-08-21 17:35:02.032394+00:00 [info] <0.230.0> starting Ra system: coordination in directory: /var/lib/rabbitmq/mnesia/rabbit@np0000042577/coordination/rabbit@np0000042577
+2026-08-21 17:35:02.033142+00:00 [info] <0.275.0> ra system 'coordination' running pre init for 0 registered servers
+2026-08-21 17:35:02.033516+00:00 [info] <0.276.0> ra: meta data store initialised for system coordination. 0 record(s) recovered
+2026-08-21 17:35:02.033633+00:00 [notice] <0.281.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables
+2026-08-21 17:35:02.035834+00:00 [info] <0.230.0> 
+2026-08-21 17:35:02.035834+00:00 [info] <0.230.0>  Starting RabbitMQ 3.12.1 on Erlang 25.3.2.8 [jit]
+2026-08-21 17:35:02.035834+00:00 [info] <0.230.0>  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2026-08-21 17:35:02.035834+00:00 [info] <0.230.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2026-08-21 17:35:02.036300+00:00 [info] <0.230.0> 
+2026-08-21 17:35:02.036300+00:00 [info] <0.230.0>  node           : rabbit@np0000042577
+2026-08-21 17:35:02.036300+00:00 [info] <0.230.0>  home dir       : /var/lib/rabbitmq
+2026-08-21 17:35:02.036300+00:00 [info] <0.230.0>  config file(s) : (none)
+2026-08-21 17:35:02.036300+00:00 [info] <0.230.0>  cookie hash    : zyg6ff7dqqEvMZmEPwHr0A==
+2026-08-21 17:35:02.036300+00:00 [info] <0.230.0>  log(s)         : /var/log/rabbitmq/rabbit@np0000042577.log
+2026-08-21 17:35:02.036300+00:00 [info] <0.230.0>                 : <stdout>
+2026-08-21 17:35:02.036300+00:00 [info] <0.230.0>  data dir       : /var/lib/rabbitmq/mnesia/rabbit@np0000042577
+2026-08-21 17:35:03.254734+00:00 [info] <0.230.0> Running boot step pre_boot defined by app rabbit
+2026-08-21 17:35:03.254792+00:00 [info] <0.230.0> Running boot step rabbit_global_counters defined by app rabbit
+2026-08-21 17:35:03.255068+00:00 [info] <0.230.0> Running boot step rabbit_osiris_metrics defined by app rabbit
+2026-08-21 17:35:03.255153+00:00 [info] <0.230.0> Running boot step rabbit_core_metrics defined by app rabbit
+2026-08-21 17:35:03.255679+00:00 [info] <0.230.0> Running boot step rabbit_alarm defined by app rabbit
+2026-08-21 17:35:03.259640+00:00 [info] <0.299.0> Memory high watermark set to 3175 MiB (3329785856 bytes) of 7938 MiB (8324464640 bytes) total
+2026-08-21 17:35:03.262317+00:00 [info] <0.301.0> Enabling free disk space monitoring (disk free space: 65969618944, total memory: 8324464640)
+2026-08-21 17:35:03.262363+00:00 [info] <0.301.0> Disk free limit set to 50MB
+2026-08-21 17:35:03.263561+00:00 [info] <0.230.0> Running boot step code_server_cache defined by app rabbit
+2026-08-21 17:35:03.263624+00:00 [info] <0.230.0> Running boot step file_handle_cache defined by app rabbit
+2026-08-21 17:35:03.263760+00:00 [info] <0.304.0> Limiting to approx 65439 file handles (58893 sockets)
+2026-08-21 17:35:03.263856+00:00 [info] <0.305.0> FHC read buffering: OFF
+2026-08-21 17:35:03.263883+00:00 [info] <0.305.0> FHC write buffering: ON
+2026-08-21 17:35:03.264136+00:00 [info] <0.230.0> Running boot step worker_pool defined by app rabbit
+2026-08-21 17:35:03.264175+00:00 [info] <0.283.0> Will use 8 processes for default worker pool
+2026-08-21 17:35:03.264198+00:00 [info] <0.283.0> Starting worker pool 'worker_pool' with 8 processes in it
+2026-08-21 17:35:03.264506+00:00 [info] <0.230.0> Running boot step database defined by app rabbit
+2026-08-21 17:35:03.264800+00:00 [info] <0.230.0> Node database directory at /var/lib/rabbitmq/mnesia/rabbit@np0000042577 is empty. Assuming we need to join an existing cluster or initialise from scratch...
+2026-08-21 17:35:03.264905+00:00 [info] <0.230.0> Configured peer discovery backend: rabbit_peer_discovery_classic_config
+2026-08-21 17:35:03.264949+00:00 [info] <0.230.0> Will try to lock with peer discovery backend rabbit_peer_discovery_classic_config
+2026-08-21 17:35:03.264995+00:00 [info] <0.230.0> All discovered existing cluster peers:
+2026-08-21 17:35:03.265016+00:00 [info] <0.230.0> Discovered no peer nodes to cluster with. Some discovery backends can filter nodes out based on a readiness criteria. Enabling debug logging might help troubleshoot.
+2026-08-21 17:35:03.266813+00:00 [notice] <0.44.0> Application mnesia exited with reason: stopped
+2026-08-21 17:35:03.320689+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2026-08-21 17:35:03.320767+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2026-08-21 17:35:03.320966+00:00 [notice] <0.284.0> Feature flags: attempt to enable `stream_sac_coordinator_unblock_group`...
+2026-08-21 17:35:03.341892+00:00 [notice] <0.284.0> Feature flags: `stream_sac_coordinator_unblock_group` enabled
+2026-08-21 17:35:03.341992+00:00 [notice] <0.284.0> Feature flags: attempt to enable `restart_streams`...
+2026-08-21 17:35:03.360542+00:00 [notice] <0.284.0> Feature flags: `restart_streams` enabled
+2026-08-21 17:35:03.360757+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2026-08-21 17:35:03.360848+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2026-08-21 17:35:03.366110+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2026-08-21 17:35:03.366221+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2026-08-21 17:35:03.366258+00:00 [info] <0.230.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2026-08-21 17:35:03.366338+00:00 [info] <0.230.0> Will try to unlock with peer discovery backend rabbit_peer_discovery_classic_config
+2026-08-21 17:35:03.366468+00:00 [info] <0.230.0> Running boot step tracking_metadata_store defined by app rabbit
+2026-08-21 17:35:03.366527+00:00 [info] <0.486.0> Setting up a table for connection tracking on this node: tracked_connection
+2026-08-21 17:35:03.366572+00:00 [info] <0.486.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost
+2026-08-21 17:35:03.366629+00:00 [info] <0.486.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user
+2026-08-21 17:35:03.366669+00:00 [info] <0.486.0> Setting up a table for channel tracking on this node: tracked_channel
+2026-08-21 17:35:03.366708+00:00 [info] <0.486.0> Setting up a table for channel tracking on this node: tracked_channel_per_user
+2026-08-21 17:35:03.366749+00:00 [info] <0.230.0> Running boot step networking_metadata_store defined by app rabbit
+2026-08-21 17:35:03.366806+00:00 [info] <0.230.0> Running boot step feature_flags defined by app rabbit
+2026-08-21 17:35:03.366878+00:00 [info] <0.230.0> Running boot step codec_correctness_check defined by app rabbit
+2026-08-21 17:35:03.366905+00:00 [info] <0.230.0> Running boot step external_infrastructure defined by app rabbit
+2026-08-21 17:35:03.366929+00:00 [info] <0.230.0> Running boot step rabbit_event defined by app rabbit
+2026-08-21 17:35:03.367006+00:00 [info] <0.230.0> Running boot step rabbit_registry defined by app rabbit
+2026-08-21 17:35:03.367061+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+2026-08-21 17:35:03.367112+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+2026-08-21 17:35:03.367151+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+2026-08-21 17:35:03.367193+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+2026-08-21 17:35:03.367226+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+2026-08-21 17:35:03.367260+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+2026-08-21 17:35:03.367296+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+2026-08-21 17:35:03.367321+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+2026-08-21 17:35:03.367345+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+2026-08-21 17:35:03.367370+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+2026-08-21 17:35:03.367411+00:00 [info] <0.230.0> Running boot step rabbit_priority_queue defined by app rabbit
+2026-08-21 17:35:03.367434+00:00 [info] <0.230.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2026-08-21 17:35:03.367494+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+2026-08-21 17:35:03.367541+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+2026-08-21 17:35:03.367578+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_random defined by app rabbit
+2026-08-21 17:35:03.367612+00:00 [info] <0.230.0> Running boot step kernel_ready defined by app rabbit
+2026-08-21 17:35:03.367630+00:00 [info] <0.230.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+2026-08-21 17:35:03.367705+00:00 [info] <0.230.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+2026-08-21 17:35:03.368236+00:00 [info] <0.494.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+2026-08-21 17:35:03.368330+00:00 [info] <0.230.0> Running boot step guid_generator defined by app rabbit
+2026-08-21 17:35:03.369843+00:00 [info] <0.230.0> Running boot step rabbit_node_monitor defined by app rabbit
+2026-08-21 17:35:03.369986+00:00 [info] <0.498.0> Starting rabbit_node_monitor
+2026-08-21 17:35:03.370039+00:00 [info] <0.230.0> Running boot step delegate_sup defined by app rabbit
+2026-08-21 17:35:03.370308+00:00 [info] <0.230.0> Running boot step rabbit_memory_monitor defined by app rabbit
+2026-08-21 17:35:03.370397+00:00 [info] <0.230.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit
+2026-08-21 17:35:03.370433+00:00 [info] <0.230.0> Running boot step core_initialized defined by app rabbit
+2026-08-21 17:35:03.370460+00:00 [info] <0.230.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+2026-08-21 17:35:03.370487+00:00 [info] <0.230.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+2026-08-21 17:35:03.370527+00:00 [info] <0.230.0> Running boot step rabbit_definitions_hashing defined by app rabbit
+2026-08-21 17:35:03.370579+00:00 [info] <0.230.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+2026-08-21 17:35:03.370754+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+2026-08-21 17:35:03.371022+00:00 [info] <0.230.0> Running boot step rabbit_policies defined by app rabbit
+2026-08-21 17:35:03.371239+00:00 [info] <0.230.0> Running boot step rabbit_policy defined by app rabbit
+2026-08-21 17:35:03.371288+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+2026-08-21 17:35:03.371327+00:00 [info] <0.230.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+2026-08-21 17:35:03.371361+00:00 [info] <0.230.0> Running boot step rabbit_stream_coordinator defined by app rabbit
+2026-08-21 17:35:03.371433+00:00 [info] <0.230.0> Running boot step rabbit_vhost_limit defined by app rabbit
+2026-08-21 17:35:03.371503+00:00 [info] <0.230.0> Running boot step recovery defined by app rabbit
+2026-08-21 17:35:03.372030+00:00 [info] <0.230.0> Running boot step empty_db_check defined by app rabbit
+2026-08-21 17:35:03.372073+00:00 [info] <0.230.0> Will seed default virtual host and user...
+2026-08-21 17:35:03.372137+00:00 [info] <0.230.0> Adding vhost '/' (description: 'Default virtual host', tags: [])
+2026-08-21 17:35:03.373607+00:00 [info] <0.230.0> Inserted a virtual host record {vhost,<<"/">>,[],
+2026-08-21 17:35:03.373607+00:00 [info] <0.230.0>                                       #{description =>
+2026-08-21 17:35:03.373607+00:00 [info] <0.230.0>                                             <<"Default virtual host">>,
+2026-08-21 17:35:03.373607+00:00 [info] <0.230.0>                                         tags => []}}
+2026-08-21 17:35:03.381417+00:00 [info] <0.539.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@np0000042577/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2026-08-21 17:35:03.381882+00:00 [info] <0.539.0> Setting segment_entry_count for vhost '/' with 0 queues to '2048'
+2026-08-21 17:35:03.384136+00:00 [info] <0.539.0> Starting message stores for vhost '/'
+2026-08-21 17:35:03.384371+00:00 [info] <0.549.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2026-08-21 17:35:03.385082+00:00 [info] <0.539.0> Started message store of type transient for vhost '/'
+2026-08-21 17:35:03.385202+00:00 [info] <0.553.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2026-08-21 17:35:03.385572+00:00 [warning] <0.553.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2026-08-21 17:35:03.385981+00:00 [info] <0.539.0> Started message store of type persistent for vhost '/'
+2026-08-21 17:35:03.386083+00:00 [info] <0.539.0> Recovering 0 queues of type rabbit_classic_queue took 3ms
+2026-08-21 17:35:03.386123+00:00 [info] <0.539.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2026-08-21 17:35:03.386152+00:00 [info] <0.539.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2026-08-21 17:35:03.388046+00:00 [info] <0.230.0> Created user 'guest'
+2026-08-21 17:35:03.389232+00:00 [info] <0.230.0> Successfully set user tags for user 'guest' to [administrator]
+2026-08-21 17:35:03.390582+00:00 [info] <0.230.0> Successfully set permissions for user 'guest' in virtual host '/' to '.*', '.*', '.*'
+2026-08-21 17:35:03.390620+00:00 [info] <0.230.0> Running boot step rabbit_observer_cli defined by app rabbit
+2026-08-21 17:35:03.390691+00:00 [info] <0.230.0> Running boot step rabbit_looking_glass defined by app rabbit
+2026-08-21 17:35:03.390710+00:00 [info] <0.230.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2026-08-21 17:35:03.390825+00:00 [info] <0.230.0> Running boot step background_gc defined by app rabbit
+2026-08-21 17:35:03.390922+00:00 [info] <0.230.0> Running boot step routing_ready defined by app rabbit
+2026-08-21 17:35:03.390942+00:00 [info] <0.230.0> Running boot step pre_flight defined by app rabbit
+2026-08-21 17:35:03.390968+00:00 [info] <0.230.0> Running boot step notify_cluster defined by app rabbit
+2026-08-21 17:35:03.390992+00:00 [info] <0.230.0> Running boot step networking defined by app rabbit
+2026-08-21 17:35:03.391007+00:00 [info] <0.230.0> Running boot step definition_import_worker_pool defined by app rabbit
+2026-08-21 17:35:03.391059+00:00 [info] <0.283.0> Starting worker pool 'definition_import_pool' with 8 processes in it
+2026-08-21 17:35:03.391403+00:00 [info] <0.230.0> Running boot step cluster_name defined by app rabbit
+2026-08-21 17:35:03.391449+00:00 [info] <0.230.0> Initialising internal cluster ID to 'rabbitmq-cluster-id-tSF8f9o3ZLatckNmQZBBdw'
+2026-08-21 17:35:03.392621+00:00 [info] <0.230.0> Running boot step direct_client defined by app rabbit
+2026-08-21 17:35:03.392676+00:00 [info] <0.230.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit
+2026-08-21 17:35:03.392695+00:00 [info] <0.230.0> Creating table rabbit_node_maintenance_states for maintenance mode status
+2026-08-21 17:35:03.394656+00:00 [info] <0.595.0> Resetting node maintenance status
+2026-08-21 17:35:03.394751+00:00 [info] <0.595.0> Ready to start client connection listeners
+2026-08-21 17:35:03.395841+00:00 [info] <0.613.0> started TCP listener on [::]:5672
+2026-08-21 17:35:03.439715+00:00 [info] <0.595.0> Server startup complete; 0 plugins started.
+2026-08-21 17:35:05.140606+00:00 [info] <0.625.0> Created user 'stackrabbit'
+2026-08-21 17:35:05.508002+00:00 [info] <0.632.0> Successfully set permissions for user 'stackrabbit' in virtual host '/' to '.*', '.*', '.*'
+2026-08-21 17:35:05.871684+00:00 [info] <0.639.0> Successfully changed password for user 'stackrabbit'
+2026-08-21 17:35:06.235702+00:00 [info] <0.646.0> Deleted user 'guest'
+2026-08-21 17:35:06.235865+00:00 [info] <0.648.0> Closing all connections from user 'guest' because it's being deleted
+2026-08-21 17:37:14.847977+00:00 [info] <0.689.0> Adding vhost 'nova_cell1' (description: '', tags: [])
+2026-08-21 17:37:14.850931+00:00 [info] <0.689.0> Inserted a virtual host record {vhost,<<"nova_cell1">>,[],
+2026-08-21 17:37:14.850931+00:00 [info] <0.689.0>                                       #{description => <<>>,tags => []}}
+2026-08-21 17:37:14.860685+00:00 [info] <0.701.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@np0000042577/msg_stores/vhosts/6RTRUNKEABC4BKCG2P5ONFZRJ' for vhost 'nova_cell1' exists
+2026-08-21 17:37:14.861126+00:00 [info] <0.701.0> Setting segment_entry_count for vhost 'nova_cell1' with 0 queues to '2048'
+2026-08-21 17:37:14.863624+00:00 [info] <0.701.0> Starting message stores for vhost 'nova_cell1'
+2026-08-21 17:37:14.863769+00:00 [info] <0.710.0> Message store "6RTRUNKEABC4BKCG2P5ONFZRJ/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2026-08-21 17:37:14.864459+00:00 [info] <0.701.0> Started message store of type transient for vhost 'nova_cell1'
+2026-08-21 17:37:14.864597+00:00 [info] <0.714.0> Message store "6RTRUNKEABC4BKCG2P5ONFZRJ/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2026-08-21 17:37:14.864916+00:00 [warning] <0.714.0> Message store "6RTRUNKEABC4BKCG2P5ONFZRJ/msg_store_persistent": rebuilding indices from scratch
+2026-08-21 17:37:14.865332+00:00 [info] <0.701.0> Started message store of type persistent for vhost 'nova_cell1'
+2026-08-21 17:37:14.865440+00:00 [info] <0.701.0> Recovering 0 queues of type rabbit_classic_queue took 4ms
+2026-08-21 17:37:14.865472+00:00 [info] <0.701.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2026-08-21 17:37:14.865504+00:00 [info] <0.701.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2026-08-21 17:37:15.293104+00:00 [info] <0.745.0> Successfully set permissions for user 'stackrabbit' in virtual host 'nova_cell1' to '.*', '.*', '.*'
+2026-08-21 17:39:19.761478+00:00 [info] <0.764.0> accepting AMQP connection <0.764.0> (10.241.128.147:51440 -> 10.241.128.147:5672)
+2026-08-21 17:39:19.762444+00:00 [info] <0.764.0> connection <0.764.0> (10.241.128.147:51440 -> 10.241.128.147:5672) has a client-provided name: neutron-rpc-server:71001:ad2dbc35-7860-4a32-8845-41cdf4f6366e
+2026-08-21 17:39:19.762879+00:00 [info] <0.764.0> connection <0.764.0> (10.241.128.147:51440 -> 10.241.128.147:5672 - neutron-rpc-server:71001:ad2dbc35-7860-4a32-8845-41cdf4f6366e): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:19.775931+00:00 [info] <0.803.0> accepting AMQP connection <0.803.0> (10.241.128.147:51442 -> 10.241.128.147:5672)
+2026-08-21 17:39:19.776738+00:00 [info] <0.803.0> connection <0.803.0> (10.241.128.147:51442 -> 10.241.128.147:5672) has a client-provided name: neutron-rpc-server:71001:150417f2-b673-468e-9b22-a9d9908e011d
+2026-08-21 17:39:19.777086+00:00 [info] <0.803.0> connection <0.803.0> (10.241.128.147:51442 -> 10.241.128.147:5672 - neutron-rpc-server:71001:150417f2-b673-468e-9b22-a9d9908e011d): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:19.786184+00:00 [info] <0.840.0> accepting AMQP connection <0.840.0> (10.241.128.147:51454 -> 10.241.128.147:5672)
+2026-08-21 17:39:19.787056+00:00 [info] <0.840.0> connection <0.840.0> (10.241.128.147:51454 -> 10.241.128.147:5672) has a client-provided name: neutron-rpc-server:71001:9e696d32-a4e5-409f-93c9-4c132451519a
+2026-08-21 17:39:19.787503+00:00 [info] <0.840.0> connection <0.840.0> (10.241.128.147:51454 -> 10.241.128.147:5672 - neutron-rpc-server:71001:9e696d32-a4e5-409f-93c9-4c132451519a): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:23.302703+00:00 [info] <0.877.0> accepting AMQP connection <0.877.0> (10.241.128.147:51460 -> 10.241.128.147:5672)
+2026-08-21 17:39:23.303621+00:00 [info] <0.877.0> connection <0.877.0> (10.241.128.147:51460 -> 10.241.128.147:5672) has a client-provided name: uwsgi:69106:1a61a04a-4bf1-43a4-af5e-7a102b6a2a17
+2026-08-21 17:39:23.304097+00:00 [info] <0.877.0> connection <0.877.0> (10.241.128.147:51460 -> 10.241.128.147:5672 - uwsgi:69106:1a61a04a-4bf1-43a4-af5e-7a102b6a2a17): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:24.179911+00:00 [info] <0.893.0> accepting AMQP connection <0.893.0> (10.241.128.147:51462 -> 10.241.128.147:5672)
+2026-08-21 17:39:24.180797+00:00 [info] <0.893.0> connection <0.893.0> (10.241.128.147:51462 -> 10.241.128.147:5672) has a client-provided name: uwsgi:69107:db6e6411-2987-45f0-91a9-c5f86593b7a7
+2026-08-21 17:39:24.181238+00:00 [info] <0.893.0> connection <0.893.0> (10.241.128.147:51462 -> 10.241.128.147:5672 - uwsgi:69107:db6e6411-2987-45f0-91a9-c5f86593b7a7): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:35.756243+00:00 [info] <0.909.0> accepting AMQP connection <0.909.0> (10.241.128.147:54502 -> 10.241.128.147:5672)
+2026-08-21 17:39:35.758206+00:00 [info] <0.909.0> connection <0.909.0> (10.241.128.147:54502 -> 10.241.128.147:5672) has a client-provided name: nova-scheduler:75221:b7f8adc9-bf20-44be-b7b9-f9e4f2eeaa0c
+2026-08-21 17:39:35.758660+00:00 [info] <0.909.0> connection <0.909.0> (10.241.128.147:54502 -> 10.241.128.147:5672 - nova-scheduler:75221:b7f8adc9-bf20-44be-b7b9-f9e4f2eeaa0c): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:35.761358+00:00 [info] <0.929.0> accepting AMQP connection <0.929.0> (10.241.128.147:54516 -> 10.241.128.147:5672)
+2026-08-21 17:39:35.762595+00:00 [info] <0.929.0> connection <0.929.0> (10.241.128.147:54516 -> 10.241.128.147:5672) has a client-provided name: nova-scheduler:75212:b35f534e-758e-4ee7-bf78-3b7bbbba1b1e
+2026-08-21 17:39:35.763078+00:00 [info] <0.929.0> connection <0.929.0> (10.241.128.147:54516 -> 10.241.128.147:5672 - nova-scheduler:75212:b35f534e-758e-4ee7-bf78-3b7bbbba1b1e): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:38.666620+00:00 [info] <0.969.0> accepting AMQP connection <0.969.0> (10.241.128.147:43200 -> 10.241.128.147:5672)
+2026-08-21 17:39:38.672420+00:00 [info] <0.969.0> connection <0.969.0> (10.241.128.147:43200 -> 10.241.128.147:5672) has a client-provided name: nova-conductor:77027:321dd273-bfca-4b5d-b067-17e0b6bba849
+2026-08-21 17:39:38.672974+00:00 [info] <0.969.0> connection <0.969.0> (10.241.128.147:43200 -> 10.241.128.147:5672 - nova-conductor:77027:321dd273-bfca-4b5d-b067-17e0b6bba849): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2026-08-21 17:39:38.696299+00:00 [info] <0.989.0> accepting AMQP connection <0.989.0> (10.241.128.147:43216 -> 10.241.128.147:5672)
+2026-08-21 17:39:38.697143+00:00 [info] <0.989.0> connection <0.989.0> (10.241.128.147:43216 -> 10.241.128.147:5672) has a client-provided name: nova-conductor:77029:16ecb16f-56a3-4853-a11e-809523239bd4
+2026-08-21 17:39:38.700608+00:00 [info] <0.989.0> connection <0.989.0> (10.241.128.147:43216 -> 10.241.128.147:5672 - nova-conductor:77029:16ecb16f-56a3-4853-a11e-809523239bd4): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2026-08-21 17:39:38.886854+00:00 [info] <0.1029.0> accepting AMQP connection <0.1029.0> (10.241.128.147:43232 -> 10.241.128.147:5672)
+2026-08-21 17:39:38.887818+00:00 [info] <0.1029.0> connection <0.1029.0> (10.241.128.147:43232 -> 10.241.128.147:5672) has a client-provided name: nova-conductor:77045:2d321ffd-c90b-40db-92fb-f24a56f4278b
+2026-08-21 17:39:38.888257+00:00 [info] <0.1029.0> connection <0.1029.0> (10.241.128.147:43232 -> 10.241.128.147:5672 - nova-conductor:77045:2d321ffd-c90b-40db-92fb-f24a56f4278b): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:38.889542+00:00 [info] <0.1042.0> accepting AMQP connection <0.1042.0> (10.241.128.147:43246 -> 10.241.128.147:5672)
+2026-08-21 17:39:38.890805+00:00 [info] <0.1042.0> connection <0.1042.0> (10.241.128.147:43246 -> 10.241.128.147:5672) has a client-provided name: nova-conductor:77043:09e2106f-5aa4-423b-93c6-87a46f3842ee
+2026-08-21 17:39:38.891190+00:00 [info] <0.1042.0> connection <0.1042.0> (10.241.128.147:43246 -> 10.241.128.147:5672 - nova-conductor:77043:09e2106f-5aa4-423b-93c6-87a46f3842ee): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:40.032253+00:00 [info] <0.1088.0> accepting AMQP connection <0.1088.0> (10.241.128.147:43262 -> 10.241.128.147:5672)
+2026-08-21 17:39:40.033169+00:00 [info] <0.1088.0> connection <0.1088.0> (10.241.128.147:43262 -> 10.241.128.147:5672) has a client-provided name: nova-compute:76967:97b087d6-856c-4b5b-867e-599db0265b64
+2026-08-21 17:39:40.033588+00:00 [info] <0.1088.0> connection <0.1088.0> (10.241.128.147:43262 -> 10.241.128.147:5672 - nova-compute:76967:97b087d6-856c-4b5b-867e-599db0265b64): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2026-08-21 17:39:40.036722+00:00 [info] <0.1107.0> accepting AMQP connection <0.1107.0> (10.241.128.147:43276 -> 10.241.128.147:5672)
+2026-08-21 17:39:40.037295+00:00 [info] <0.1107.0> connection <0.1107.0> (10.241.128.147:43276 -> 10.241.128.147:5672) has a client-provided name: nova-compute:76967:5a315398-0bbb-4fc8-8888-d23c7485b44a
+2026-08-21 17:39:40.037619+00:00 [info] <0.1107.0> connection <0.1107.0> (10.241.128.147:43276 -> 10.241.128.147:5672 - nova-compute:76967:5a315398-0bbb-4fc8-8888-d23c7485b44a): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2026-08-21 17:39:40.043864+00:00 [info] <0.1120.0> accepting AMQP connection <0.1120.0> (10.241.128.147:43278 -> 10.241.128.147:5672)
+2026-08-21 17:39:40.044629+00:00 [info] <0.1120.0> connection <0.1120.0> (10.241.128.147:43278 -> 10.241.128.147:5672) has a client-provided name: nova-conductor:77027:b1353298-b5fc-4a47-9e29-f58f2875a900
+2026-08-21 17:39:40.044971+00:00 [info] <0.1120.0> connection <0.1120.0> (10.241.128.147:43278 -> 10.241.128.147:5672 - nova-conductor:77027:b1353298-b5fc-4a47-9e29-f58f2875a900): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2026-08-21 17:39:40.326737+00:00 [info] <0.1133.0> accepting AMQP connection <0.1133.0> (10.241.128.147:43290 -> 10.241.128.147:5672)
+2026-08-21 17:39:40.328231+00:00 [info] <0.1133.0> connection <0.1133.0> (10.241.128.147:43290 -> 10.241.128.147:5672) has a client-provided name: nova-conductor:77029:abb935e9-d7ed-4f79-9db8-4502f1061214
+2026-08-21 17:39:40.328711+00:00 [info] <0.1133.0> connection <0.1133.0> (10.241.128.147:43290 -> 10.241.128.147:5672 - nova-conductor:77029:abb935e9-d7ed-4f79-9db8-4502f1061214): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2026-08-21 17:39:46.376634+00:00 [info] <0.1146.0> accepting AMQP connection <0.1146.0> (10.241.128.147:43304 -> 10.241.128.147:5672)
+2026-08-21 17:39:46.377534+00:00 [info] <0.1146.0> connection <0.1146.0> (10.241.128.147:43304 -> 10.241.128.147:5672) has a client-provided name: cinder-scheduler:78589:e3ba12d3-498d-408c-b640-62a3dd75544a
+2026-08-21 17:39:46.378045+00:00 [info] <0.1146.0> connection <0.1146.0> (10.241.128.147:43304 -> 10.241.128.147:5672 - cinder-scheduler:78589:e3ba12d3-498d-408c-b640-62a3dd75544a): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:46.391766+00:00 [info] <0.1184.0> accepting AMQP connection <0.1184.0> (10.241.128.147:43318 -> 10.241.128.147:5672)
+2026-08-21 17:39:46.394062+00:00 [info] <0.1184.0> connection <0.1184.0> (10.241.128.147:43318 -> 10.241.128.147:5672) has a client-provided name: cinder-scheduler:78589:733f25a6-5d66-4562-a6fd-3b67796f29cf
+2026-08-21 17:39:46.397504+00:00 [info] <0.1184.0> connection <0.1184.0> (10.241.128.147:43318 -> 10.241.128.147:5672 - cinder-scheduler:78589:733f25a6-5d66-4562-a6fd-3b67796f29cf): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:50.385004+00:00 [info] <0.1199.0> accepting AMQP connection <0.1199.0> (10.241.128.147:57526 -> 10.241.128.147:5672)
+2026-08-21 17:39:50.385843+00:00 [info] <0.1199.0> connection <0.1199.0> (10.241.128.147:57526 -> 10.241.128.147:5672) has a client-provided name: nova-compute:76967:f6c69e4e-719d-47f2-b802-31aa6e95f6bd
+2026-08-21 17:39:50.386231+00:00 [info] <0.1199.0> connection <0.1199.0> (10.241.128.147:57526 -> 10.241.128.147:5672 - nova-compute:76967:f6c69e4e-719d-47f2-b802-31aa6e95f6bd): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2026-08-21 17:39:50.394522+00:00 [info] <0.1236.0> accepting AMQP connection <0.1236.0> (10.241.128.147:57534 -> 10.241.128.147:5672)
+2026-08-21 17:39:50.395162+00:00 [info] <0.1236.0> connection <0.1236.0> (10.241.128.147:57534 -> 10.241.128.147:5672) has a client-provided name: nova-compute:76967:1104f3fa-2ca2-4582-9395-787ae27f0481
+2026-08-21 17:39:50.395534+00:00 [info] <0.1236.0> connection <0.1236.0> (10.241.128.147:57534 -> 10.241.128.147:5672 - nova-compute:76967:1104f3fa-2ca2-4582-9395-787ae27f0481): user 'stackrabbit' authenticated and granted access to vhost 'nova_cell1'
+2026-08-21 17:39:50.918489+00:00 [info] <0.1273.0> accepting AMQP connection <0.1273.0> (10.241.128.147:57540 -> 10.241.128.147:5672)
+2026-08-21 17:39:50.919382+00:00 [info] <0.1273.0> connection <0.1273.0> (10.241.128.147:57540 -> 10.241.128.147:5672) has a client-provided name: uwsgi:79976:21d95842-3fb2-46d3-8a7b-2eb849ae184b
+2026-08-21 17:39:50.919789+00:00 [info] <0.1273.0> connection <0.1273.0> (10.241.128.147:57540 -> 10.241.128.147:5672 - uwsgi:79976:21d95842-3fb2-46d3-8a7b-2eb849ae184b): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:50.982291+00:00 [info] <0.1295.0> accepting AMQP connection <0.1295.0> (10.241.128.147:57546 -> 10.241.128.147:5672)
+2026-08-21 17:39:50.983341+00:00 [info] <0.1295.0> connection <0.1295.0> (10.241.128.147:57546 -> 10.241.128.147:5672) has a client-provided name: uwsgi:79975:ec046ed8-82ff-454d-982d-35fc67d2acfe
+2026-08-21 17:39:50.983781+00:00 [info] <0.1295.0> connection <0.1295.0> (10.241.128.147:57546 -> 10.241.128.147:5672 - uwsgi:79975:ec046ed8-82ff-454d-982d-35fc67d2acfe): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:52.191349+00:00 [info] <0.1309.0> accepting AMQP connection <0.1309.0> (10.241.128.147:57556 -> 10.241.128.147:5672)
+2026-08-21 17:39:52.192147+00:00 [info] <0.1309.0> connection <0.1309.0> (10.241.128.147:57556 -> 10.241.128.147:5672) has a client-provided name: uwsgi:79975:3ba481df-2afe-4b7f-ac7e-7bc00da8830d
+2026-08-21 17:39:52.192564+00:00 [info] <0.1309.0> connection <0.1309.0> (10.241.128.147:57556 -> 10.241.128.147:5672 - uwsgi:79975:3ba481df-2afe-4b7f-ac7e-7bc00da8830d): user 'stackrabbit' authenticated and granted access to vhost '/'
+2026-08-21 17:39:52.227383+00:00 [info] <0.1323.0> accepting AMQP connection <0.1323.0> (10.241.128.147:57566 -> 10.241.128.147:5672)
+2026-08-21 17:39:52.228077+00:00 [info] <0.1323.0> connection <0.1323.0> (10.241.128.147:57566 -> 10.241.128.147:5672) has a client-provided name: uwsgi:79976:4a063c35-dea2-4747-9ac2-3cb936d68559
+2026-08-21 17:39:52.228480+00:00 [info] <0.1323.0> connection <0.1323.0> (10.241.128.147:57566 -> 10.241.128.147:5672 - uwsgi:79976:4a063c35-dea2-4747-9ac2-3cb936d68559): user 'stackrabbit' authenticated and granted access to vhost '/'
