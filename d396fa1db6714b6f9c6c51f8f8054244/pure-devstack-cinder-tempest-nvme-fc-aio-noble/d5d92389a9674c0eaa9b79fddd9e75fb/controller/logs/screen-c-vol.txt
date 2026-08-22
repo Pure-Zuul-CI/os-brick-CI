@@ -1,0 +1,73 @@
+Aug 22 05:32:22.524490 np0000042587 systemd[1]: Started devstack@c-vol.service - Devstack devstack@c-vol.service.
+Aug 22 05:32:23.527575 np0000042587 cinder-volume[79288]: DEBUG oslo_concurrency.lockutils [-] Acquiring lock "singleton_lock" {{(pid=79288) lock /opt/stack/data/venv/lib/python3.12/site-packages/oslo_concurrency/lockutils.py:390}}
+Aug 22 05:32:23.527765 np0000042587 cinder-volume[79288]: DEBUG oslo_concurrency.lockutils [-] Acquired lock "singleton_lock" {{(pid=79288) lock /opt/stack/data/venv/lib/python3.12/site-packages/oslo_concurrency/lockutils.py:393}}
+Aug 22 05:32:23.527852 np0000042587 cinder-volume[79288]: DEBUG oslo_concurrency.lockutils [-] Releasing lock "singleton_lock" {{(pid=79288) lock /opt/stack/data/venv/lib/python3.12/site-packages/oslo_concurrency/lockutils.py:413}}
+Aug 22 05:32:23.799532 np0000042587 cinder-volume[79288]: INFO dbcounter [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Registered counter for database cinder
+Aug 22 05:32:23.808055 np0000042587 cinder-volume[79288]: DEBUG oslo_db.sqlalchemy.engines [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] MySQL server mode set to STRICT_TRANS_TABLES,STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,TRADITIONAL,NO_ENGINE_SUBSTITUTION {{(pid=79288) _check_effective_sql_mode /opt/stack/data/venv/lib/python3.12/site-packages/oslo_db/sqlalchemy/engines.py:325}}
+Aug 22 05:32:23.886985 np0000042587 cinder-volume[79288]: DEBUG dbcounter [-] [79288] Writer thread running {{(pid=79288) stat_writer /opt/stack/data/venv/lib/python3.12/site-packages/dbcounter.py:102}}
+Aug 22 05:32:23.889212 np0000042587 cinder-volume[79288]: INFO cinder.rpc [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Automatically selected cinder-scheduler objects version 1.39 as minimum service version.
+Aug 22 05:32:23.891035 np0000042587 cinder-volume[79288]: INFO cinder.rpc [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Automatically selected cinder-scheduler RPC version 3.12 as minimum service version.
+Aug 22 05:32:23.894658 np0000042587 cinder-volume[79288]: DEBUG oslo_db.sqlalchemy.engines [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] MySQL server mode set to STRICT_TRANS_TABLES,STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,TRADITIONAL,NO_ENGINE_SUBSTITUTION {{(pid=79288) _check_effective_sql_mode /opt/stack/data/venv/lib/python3.12/site-packages/oslo_db/sqlalchemy/engines.py:325}}
+Aug 22 05:32:23.983703 np0000042587 cinder-volume[79288]: INFO cinder.volume.manager [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Determined volume DB was empty at startup.
+Aug 22 05:32:23.983976 np0000042587 cinder-volume[79288]: DEBUG cinder.volume.manager [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Cinder Volume DB check: vol_db_empty=True {{(pid=79288) __init__ /opt/stack/cinder/cinder/volume/manager.py:288}}
+Aug 22 05:32:23.987884 np0000042587 cinder-volume[79288]: INFO cinder.volume.manager [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Service not found for updating active_backend_id, assuming default for driver init.
+Aug 22 05:32:23.988077 np0000042587 cinder-volume[79288]: WARNING cinder.volume.manager [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Suppressing requests library SSL Warnings
+Aug 22 05:32:23.988369 np0000042587 cinder-volume[79288]: WARNING stevedore.named [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Could not load cinder.keymgr.conf_key_mgr.ConfKeyManager
+Aug 22 05:32:23.988600 np0000042587 cinder-volume[79288]: WARNING castellan.key_manager [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Deprecation Warning : cinder.keymgr.conf_key_mgr.ConfKeyManager is not a stevedore based driver, trying to load it as a class: stevedore.exception.NoMatches: No 'castellan.drivers' driver found, looking for 'cinder.keymgr.conf_key_mgr.ConfKeyManager'
+Aug 22 05:32:23.989317 np0000042587 cinder-volume[79288]: WARNING cinder.keymgr.conf_key_mgr [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] This key manager is insecure and is not recommended for production deployments: stevedore.exception.NoMatches: No 'castellan.drivers' driver found, looking for 'cinder.keymgr.conf_key_mgr.ConfKeyManager'
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] Volume service np0000042587@puredriver-1 failed to start.: oslo_config.cfg.ConfigFileValueError: Value for option pure_nvme_transport from LocationInfo(location=<Locations.user: (4, True)>, detail='/etc/cinder/cinder.conf') is not valid: Valid values are [roce, tcp], but found 'fc'
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume Traceback (most recent call last):
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/data/venv/lib/python3.12/site-packages/oslo_config/cfg.py", line 3120, in _do_get
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     return (convert(val), alt_loc)
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume             ^^^^^^^^^^^^
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/data/venv/lib/python3.12/site-packages/oslo_config/cfg.py", line 3085, in convert
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     return self._convert_value(
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume            ^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/data/venv/lib/python3.12/site-packages/oslo_config/cfg.py", line 3226, in _convert_value
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     return opt.type(value)
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume            ^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/data/venv/lib/python3.12/site-packages/oslo_config/types.py", line 173, in __call__
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     raise ValueError(
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume ValueError: Valid values are [roce, tcp], but found 'fc'
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume 
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume During handling of the above exception, another exception occurred:
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume 
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume Traceback (most recent call last):
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/cinder/cinder/cmd/volume.py", line 94, in _launch_service
+Aug 22 05:32:24.085144 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     server = service.Service.create(host=host,
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/cinder/cinder/service.py", line 413, in create
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     service_obj = cls(host, binary, topic, manager,
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/cinder/cinder/service.py", line 151, in __init__
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     self.manager = manager_class(host=self.host,
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/cinder/cinder/volume/manager.py", line 311, in __init__
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     self.driver = importutils.import_object(
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/data/venv/lib/python3.12/site-packages/oslo_utils/importutils.py", line 46, in import_object
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     return import_class(import_str)(*args, **kwargs)
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/cinder/cinder/volume/drivers/pure.py", line 4528, in __init__
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     if self.configuration.pure_nvme_transport == "roce":
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/cinder/cinder/volume/configuration.py", line 163, in __getattr__
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     return getattr(conf, value)
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume            ^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/cinder/cinder/volume/configuration.py", line 131, in __getattr__
+Aug 22 05:32:24.085714 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     opt_value = getattr(backend_conf, opt_name)
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/data/venv/lib/python3.12/site-packages/oslo_config/cfg.py", line 3594, in __getattr__
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     return self._conf._get(name, self._group)
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/data/venv/lib/python3.12/site-packages/oslo_config/cfg.py", line 3053, in _get
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     value, loc = self._do_get(name, group, namespace)
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume   File "/opt/stack/data/venv/lib/python3.12/site-packages/oslo_config/cfg.py", line 3138, in _do_get
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume     raise ConfigFileValueError(message)
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume oslo_config.cfg.ConfigFileValueError: Value for option pure_nvme_transport from LocationInfo(location=<Locations.user: (4, True)>, detail='/etc/cinder/cinder.conf') is not valid: Valid values are [roce, tcp], but found 'fc'
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume 
+Aug 22 05:32:24.086240 np0000042587 cinder-volume[79288]: ERROR cinder.cmd.volume [None req-a3ff5540-e9b8-43e5-960e-387dbea5b335 None None] No volume service(s) started successfully, terminating.
+Aug 22 05:32:24.412314 np0000042587 systemd[1]: devstack@c-vol.service: Main process exited, code=exited, status=1/FAILURE
+Aug 22 05:32:24.412326 np0000042587 systemd[1]: devstack@c-vol.service: Failed with result 'exit-code'.
+Aug 22 05:32:24.412591 np0000042587 systemd[1]: devstack@c-vol.service: Consumed 1.841s CPU time, 115.3M memory peak, 0B memory swap peak.
