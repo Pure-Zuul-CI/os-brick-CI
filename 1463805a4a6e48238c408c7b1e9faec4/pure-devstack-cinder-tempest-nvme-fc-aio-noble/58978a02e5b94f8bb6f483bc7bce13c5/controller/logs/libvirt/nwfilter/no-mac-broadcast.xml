@@ -1,0 +1,13 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit no-mac-broadcast
+or other application using the libvirt API.
+-->
+
+<filter name='no-mac-broadcast' chain='ipv4' priority='-700'>
+  <uuid>6c1b3d4a-31d1-4d30-87e0-90141fb140fa</uuid>
+  <rule action='drop' direction='out' priority='500'>
+    <mac dstmacaddr='ff:ff:ff:ff:ff:ff'/>
+  </rule>
+</filter>
